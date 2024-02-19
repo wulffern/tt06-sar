@@ -1,0 +1,6 @@
+corner:
+  Lay: ''
+  Sch: ''
+ngspice:
+  library: TT06_SAR_SKY130NM
+  cell: TT06_SAR

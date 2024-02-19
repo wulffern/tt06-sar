@@ -1,0 +1,9 @@
+* Measure TT06_SAR
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+
+echo "MEAS_END"
+.endc

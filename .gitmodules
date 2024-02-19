@@ -1,0 +1,9 @@
+[submodule "ip/sun_sar9b_sky130nm"]
+	path = ip/sun_sar9b_sky130nm
+	url = git@github.com:wulffern/sun_sar9b_sky130nm.git
+[submodule "ip/tech_sky130B"]
+	path = ip/tech_sky130B
+	url = git@github.com:wulffern/tech_sky130B.git
+[submodule "ip/cpdk"]
+	path = ip/cpdk
+	url = https://github.com/wulffern/cpdk
