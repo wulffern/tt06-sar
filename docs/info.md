@@ -9,12 +9,45 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Successive approximation analog-to-digital converter. 
+
+
+
+## How to simulate
+
+Initialize submodules
+
+```
+git submodule init
+git submodule update 
+```
+
+Install cicsim
+```bash
+python3 -m pip install cicsim
+```
+
+Navigate to the testbench and run a typical simulation (requires cicsim)
+
+```bash 
+cd ip/tt06_sar_sky130nm/sim/TT06_SAR
+make typical
+```
+
+The main testbench is `ip/tt06_sar_sky130nm/sim/TT6_06` 
 
 ## How to test
 
-Explain how to use your project
+Apply a differential voltage with a common mode of around VDD/2 to ua[1] and
+ua[0].
+
+Apply a 25 % duty-cycle, max 8 MHz, clock to ui_in[0].
+
+Set ui_in[1] high to enable the ADC
+
+The digital outputs uo_out[7:0] is two's complement digital output.
+
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+

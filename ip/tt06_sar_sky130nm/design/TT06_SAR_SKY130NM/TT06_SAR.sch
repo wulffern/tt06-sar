@@ -32,9 +32,9 @@ lab=CK_SAMPLE_BSSW}
 N 600 -520 640 -520 {
 lab=CK_SAMPLE}
 N 600 -540 640 -540 {
-lab=ui_in[6]}
+lab=ui_in[1]}
 N 600 -560 640 -560 {
-lab=ui_in[7]}
+lab=ui_in[0]}
 N 600 -300 640 -300 {
 lab=uo_out[7]}
 N 600 -280 640 -280 {
@@ -87,6 +87,10 @@ N 1090 -210 1130 -210 {
 lab=VPWR}
 N 1090 -190 1130 -190 {
 lab=VGND}
+N 1090 -510 1130 -510 {
+lab=SARN}
+N 1090 -490 1130 -490 {
+lab=SARP}
 C {devices/ipin.sym} 140 -700 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 160 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}
@@ -111,8 +115,8 @@ C {devices/lab_wire.sym} 600 -320 0 0 {name=p19 sig_type=std_logic lab=D<0>}
 C {devices/lab_wire.sym} 600 -480 0 0 {name=p20 sig_type=std_logic lab=EN}
 C {devices/lab_wire.sym} 600 -500 0 0 {name=p21 sig_type=std_logic lab=CK_SAMPLE_BSSW}
 C {devices/lab_wire.sym} 600 -520 0 0 {name=p22 sig_type=std_logic lab=CK_SAMPLE}
-C {devices/lab_wire.sym} 600 -540 0 0 {name=p23 sig_type=std_logic lab=ui_in[6]}
-C {devices/lab_wire.sym} 600 -560 0 0 {name=p24 sig_type=std_logic lab=ui_in[7]}
+C {devices/lab_wire.sym} 600 -540 0 0 {name=p23 sig_type=std_logic lab=ui_in[1]}
+C {devices/lab_wire.sym} 600 -560 0 0 {name=p24 sig_type=std_logic lab=ui_in[0]}
 C {devices/lab_wire.sym} 600 -300 0 0 {name=p25 sig_type=std_logic lab=uo_out[7]}
 C {devices/lab_wire.sym} 600 -280 0 0 {name=p26 sig_type=std_logic lab=uo_out[6]}
 C {devices/lab_wire.sym} 600 -260 0 0 {name=p27 sig_type=std_logic lab=uo_out[5]}
@@ -142,3 +146,5 @@ C {devices/lab_wire.sym} 1090 -190 0 0 {name=p50 sig_type=std_logic lab=VGND}
 C {devices/lab_wire.sym} 1090 -550 0 0 {name=p51 sig_type=std_logic lab=ua[1]}
 C {devices/lab_wire.sym} 1090 -530 0 0 {name=p52 sig_type=std_logic lab=ua[0]}
 C {cborder/border_s.sym} 1260 -160 0 0 {}
+C {devices/lab_wire.sym} 1090 -510 0 0 {name=p53 sig_type=std_logic lab=SARN}
+C {devices/lab_wire.sym} 1090 -490 0 0 {name=p54 sig_type=std_logic lab=SARP}

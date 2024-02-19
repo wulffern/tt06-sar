@@ -18,6 +18,10 @@ CELL=TT06_SAR
 #- Which libraries to make SVG files for
 SVGLIBS=TT06_SAR_SKY130NM
 
+
+deliver:
+	magic -noconsole -dnull deliver.tcl
+
 #- Provide cells you want to check for the lvsall drcall commands
 CELLS = TT06_SAR
 

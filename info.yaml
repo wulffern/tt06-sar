@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "TT06_SAR"      # Project title
+  author:       "Carsten Wulff"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "8-bit Successive Approximation Register ADC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "TT06_SAR"
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -20,8 +20,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "Sample Clock"
+  ui[1]: "Enable ADC"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -30,14 +30,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "ADC LSB"
+  uo[1]: "ADC MSB-6"
+  uo[2]: "ADC MSB-5"
+  uo[3]: "ADC MSB-4"
+  uo[4]: "ADC MSB-3"
+  uo[5]: "ADC MSB-2"
+  uo[6]: "ADC MSB-1"
+  uo[7]: "ADC MSB (two's complement)"
 
   # Bidirectional pins
   uio[0]: ""
@@ -50,8 +50,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - you can add more if you use them, up to 8
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "Negative ADC input"
+  ua[1]: "Positive ADC input"
 
 # Do not change!
 yaml_version: 6

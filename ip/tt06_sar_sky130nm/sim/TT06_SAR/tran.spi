@@ -53,9 +53,9 @@
 VSS  VGND  0     dc 0
 VDD  VPWR  0  pwl 0 0 10n {AVDD}
 
-VENABLE  ui_in<6>  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
+VENABLE  ui_in<1>  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
 
-VCLK ui_in<7> 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
+VCLK ui_in<0> 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
 
 VCM VCM 0 dc {AVDD/2}
 VSARP ua<1> VCM sin (0 {vamp} {fin} )
@@ -81,9 +81,21 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 *----------------------------------------------------------------
 * PROBE
 *----------------------------------------------------------------
-.save all
+*.save all
 *.save *
-
+.save v(ro) v(ua<1>) v(ua<0>)
+.save v(uo_out<7>)
+.save v(uo_out<6>)
+.save v(uo_out<5>)
+.save v(uo_out<4>)
+.save v(uo_out<3>)
+.save v(uo_out<2>)
+.save v(uo_out<1>)
+.save v(uo_out<0>)
+.save v(ui_in<0>)
+.save v(ui_in<1>)
+.save v(xdut.sarp)
+.save v(xdut.sarn)
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------

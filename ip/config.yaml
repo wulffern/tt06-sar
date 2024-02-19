@@ -1,0 +1,28 @@
+#-------------------------------------------------------
+# Options to cicconf
+#-------------------------------------------------------
+options:
+  template:
+    ip: tech_sky130B/cicconf/ip_template.yaml
+  project: tt06
+  technology: sky130nm
+
+
+#-------------------------------------------------------
+# Tools
+#-------------------------------------------------------
+cpdk:
+  remote: git@github.com:wulffern/cpdk.git
+  revision: main
+tech_sky130B:
+  remote: git@github.com:wulffern/tech_sky130B.git
+  revision: main
+
+#-------------------------------------------------------
+# SUN (2022)
+# "It's not you, it's me, I don't like you." – Ayrun Sun, Farscape
+#-------------------------------------------------------
+sun_sar9b_sky130nm:
+  remote: git@github.com:wulffern/sun_sar9b_sky130nm.git
+  revision: main
+
