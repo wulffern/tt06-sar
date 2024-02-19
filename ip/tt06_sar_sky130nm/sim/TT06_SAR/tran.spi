@@ -3,13 +3,13 @@
 * Include
 *----------------------------------------------------------------
 #ifdef Lay
-.include ../../../work/lpe/TT06_SAR_lpe.spi
+.include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lpe.spi
 #else
 
 *.include ../../../work/lpe/SUNSAR_SARBSSW_CV_lpe.spi
 *.include ../../../work/lpe/SUNSAR_CDAC7_CV_lpe.spi
 .include ../../../work/lpe/SUNSAR_SAR8B_CV_lpe.spi
-.include ../../../work/xsch/TT06_SAR.spice
+.include ../../../work/xsch/tt_um_TT06_SAR_wulffern.spice
 
 #endif
 

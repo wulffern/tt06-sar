@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
-  title:        "TT06_SAR"      # Project title
+  title:        "TT06 8-bit SAR ADC"      # Project title
   author:       "Carsten Wulff"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "cwulffern"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "8-bit Successive Approximation Register ADC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "TT06_SAR"
+  top_module:  "tt_um_TT06_SAR_wulffern"
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        

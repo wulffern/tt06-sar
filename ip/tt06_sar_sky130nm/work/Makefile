@@ -13,7 +13,7 @@
 
 PREFIX=
 LIB=TT06_SAR_SKY130NM
-CELL=TT06_SAR
+CELL=tt_um_TT06_SAR_wulffern
 
 #- Which libraries to make SVG files for
 SVGLIBS=TT06_SAR_SKY130NM
@@ -23,6 +23,6 @@ deliver:
 	magic -noconsole -dnull deliver.tcl
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = TT06_SAR
+CELLS = tt_um_TT06_SAR
 
 include ../tech/make/core.make
