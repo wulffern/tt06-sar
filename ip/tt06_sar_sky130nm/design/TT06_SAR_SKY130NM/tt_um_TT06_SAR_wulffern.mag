@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1708376017
+timestamp 1708464096
 << metal4 >>
 rect 399 22476 429 22576
 rect 767 22476 797 22576
@@ -56,13 +56,13 @@ rect 11240 0 11300 100
 rect 13448 0 13508 100
 rect 15656 0 15716 100
 use SUNSAR_SAR8B_CV  SUNSAR_SAR8B_CV_0 SUN_SAR9B_SKY130NM
-timestamp 1708376017
+timestamp 1708464096
 transform 1 0 1224 0 1 1324
-box -824 -924 12430 20895
+box -961 -932 12139 18531
 use SUNSAR_SARCAPTURE_CV  SUNSAR_SARCAPTURE_CV_0 SUN_SAR9B_SKY130NM
-timestamp 1708376017
-transform 1 0 13990 0 1 266
-box -90 -66 1350 22066
+timestamp 1708464096
+transform 1 0 1143 0 1 20033
+box -90 -66 11430 2178
 << labels >>
 flabel metal4 s 15487 22476 15517 22576 0 FreeSans 240 90 0 0 clk
 port 0 nsew signal input

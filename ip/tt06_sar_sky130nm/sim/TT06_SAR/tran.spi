@@ -26,10 +26,10 @@
 .param AVDD = {vdda}
 
 *- 8 MHz clock frequency
-.param PERIOD_CLK = 125n
+.param PERIOD_CLK = 250n
 
 *- 25% duty-cycle clock
-.param PW_CLK = PERIOD_CLK/4
+.param PW_CLK = PERIOD_CLK/2
 
 *- Frequency bin of the input signal
 .param fbin = 5
@@ -40,7 +40,7 @@
 *- Sampling frequency
 .param fs = 1/PERIOD_CLK
 
-.param t_start = PERIOD_CLK*5
+.param t_start = PERIOD_CLK*2
 
 *- Input frequency for coherent sampling
 .param fin = fbin/nbpt*fs
@@ -53,9 +53,9 @@
 VSS  VGND  0     dc 0
 VDD  VPWR  0  pwl 0 0 10n {AVDD}
 
-VENABLE  ui_in<1>  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
+VENABLE  ui_in<0>  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
 
-VCLK ui_in<0> 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
+VCLK clk 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
 
 VCM VCM 0 dc {AVDD/2}
 VSARP ua<1> VCM sin (0 {vamp} {fin} )
@@ -96,6 +96,8 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 .save v(ui_in<1>)
 .save v(xdut.sarp)
 .save v(xdut.sarn)
+.save v(clk)
+.save i(VDD)
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------
@@ -107,8 +109,11 @@ unset askquit
 
 optran 0 0 0 1n 1u 0
 
-
-tran 1n 1u 1p
+#ifdef Debug
+tran 1n 2u
+#else
+tran 1n 35u
+#endif
 write
 quit
 

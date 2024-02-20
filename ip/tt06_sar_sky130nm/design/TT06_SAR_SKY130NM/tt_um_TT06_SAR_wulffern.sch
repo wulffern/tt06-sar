@@ -34,7 +34,7 @@ lab=CK_SAMPLE}
 N 600 -540 640 -540 {
 lab=ui_in[1]}
 N 600 -560 640 -560 {
-lab=ui_in[0]}
+lab=clk}
 N 600 -300 640 -300 {
 lab=uo_out[7]}
 N 600 -280 640 -280 {
@@ -115,8 +115,8 @@ C {devices/lab_wire.sym} 600 -320 0 0 {name=p19 sig_type=std_logic lab=D<0>}
 C {devices/lab_wire.sym} 600 -480 0 0 {name=p20 sig_type=std_logic lab=EN}
 C {devices/lab_wire.sym} 600 -500 0 0 {name=p21 sig_type=std_logic lab=CK_SAMPLE_BSSW}
 C {devices/lab_wire.sym} 600 -520 0 0 {name=p22 sig_type=std_logic lab=CK_SAMPLE}
-C {devices/lab_wire.sym} 600 -540 0 0 {name=p23 sig_type=std_logic lab=ui_in[1]}
-C {devices/lab_wire.sym} 600 -560 0 0 {name=p24 sig_type=std_logic lab=ui_in[0]}
+C {devices/lab_wire.sym} 600 -540 0 0 {name=p23 sig_type=std_logic lab=ui_in[0]}
+C {devices/lab_wire.sym} 600 -560 0 0 {name=p24 sig_type=std_logic lab=clk}
 C {devices/lab_wire.sym} 600 -300 0 0 {name=p25 sig_type=std_logic lab=uo_out[7]}
 C {devices/lab_wire.sym} 600 -280 0 0 {name=p26 sig_type=std_logic lab=uo_out[6]}
 C {devices/lab_wire.sym} 600 -260 0 0 {name=p27 sig_type=std_logic lab=uo_out[5]}

@@ -7,7 +7,7 @@ include ../../tech/make/sim.make
 TB=tran
 VIEW=Sch
 #VIEW=Lay
-CELL=tt_um_TT06_SAR
+CELL=tt_um_TT06_SAR_wulffern
 LIB =TT06_SAR_SKY130NM
 OPT=
 
