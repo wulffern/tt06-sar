@@ -5,6 +5,8 @@ K {}
 V {}
 S {}
 E {}
+T {8-bit successive approximation register analog-to-digital-converter} 180 -860 0 0 0.8 0.8 {}
+T {Unused Ports} 1510 -1030 0 0 0.4 0.4 {}
 N 1090 -550 1130 -550 {
 lab=ua[1]}
 N 1090 -530 1130 -530 {
@@ -91,13 +93,13 @@ N 1090 -510 1130 -510 {
 lab=SARN}
 N 1090 -490 1130 -490 {
 lab=SARP}
-C {devices/ipin.sym} 140 -700 0 0 {name=p1 lab=VPWR}
-C {devices/ipin.sym} 160 -90 0 0 {name=p2 lab=VGND}
+C {devices/ipin.sym} 130 -690 0 0 {name=p1 lab=VPWR}
+C {devices/ipin.sym} 120 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}
-C {devices/opin.sym} 1380 -550 0 0 {name=p4 lab=uo_out[7:0]}
-C {devices/ipin.sym} 1380 -830 0 0 {name=p5 lab=uio_in[7:0]}
-C {devices/opin.sym} 1370 -800 0 0 {name=p6 lab=uio_out[7:0]}
-C {devices/opin.sym} 1370 -760 0 0 {name=p7 lab=uio_oe[7:0]}
+C {devices/opin.sym} 1510 -660 0 0 {name=p4 lab=uo_out[7:0]}
+C {devices/ipin.sym} 1540 -990 0 0 {name=p5 lab=uio_in[7:0]}
+C {devices/opin.sym} 1530 -960 0 0 {name=p6 lab=uio_out[7:0]}
+C {devices/opin.sym} 1530 -920 0 0 {name=p7 lab=uio_oe[7:0]}
 C {devices/iopin.sym} 130 -600 2 0 {name=p8 lab=ua[7:0]}
 C {devices/ipin.sym} 130 -560 0 0 {name=p9 lab=ena}
 C {devices/ipin.sym} 130 -520 0 0 {name=p10 lab=clk}

@@ -5,7 +5,6 @@
 #ifdef Lay
 .include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lpe.spi
 #else
-
 *.include ../../../work/lpe/SUNSAR_SARBSSW_CV_lpe.spi
 *.include ../../../work/lpe/SUNSAR_CDAC7_CV_lpe.spi
 .include ../../../work/lpe/SUNSAR_SAR8B_CV_lpe.spi
@@ -51,22 +50,22 @@
 * FORCE
 *-----------------------------------------------------------------
 VSS  VGND  0     dc 0
-VDD  VPWR  0  pwl 0 0 10n {AVDD}
+VDD  VPWR  0  dc {AVDD}
 
-VENABLE  ui_in<0>  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
+VENABLE  ui_in[0]  0  pwl 0 0 {t_start} 0 {t_start + 1n} {AVDD}
 
 VCLK clk 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
 
 VCM VCM 0 dc {AVDD/2}
-VSARP ua<1> VCM sin (0 {vamp} {fin} )
-VSARN ua<0> VCM sin (0 {-vamp} {fin} )
+VSARP ua[1] VCM sin (0 {vamp} {fin} )
+VSARN ua[0] VCM sin (0 {-vamp} {fin} )
 
 *-----------------------------------------------------------------
 * DUT
 *-----------------------------------------------------------------
 .include ../xdut.spi
 
-XDAC  uo_out<7> uo_out<6> uo_out<5> uo_out<4> uo_out<3> uo_out<2> uo_out<1> uo_out<0> RO VPWR DAC_8BIT_TWOS_COMPL
+XDAC  uo_out[7] uo_out[6] uo_out[5] uo_out[4] uo_out[3] uo_out[2] uo_out[1] uo_out[0] RO VPWR DAC_8BIT_TWOS_COMPL
 
 .SUBCKT DAC_8BIT_TWOS_COMPL DATA_7 DATA_6 DATA_5 DATA_4 DATA_3 DATA_2 DATA_1 DATA_0 RO VDD
 B1 RO_VDD 0 V = -1/2*V(DATA_7) + 1/4*V(DATA_6) + 1/8*V(DATA_5) + 1/16*V(DATA_4) + 1/32*V(DATA_3)+ 1/64*V(DATA_2) + 1/128*V(DATA_1) + 1/256*V(DATA_0)
@@ -83,21 +82,23 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 *----------------------------------------------------------------
 *.save all
 *.save *
-.save v(ro) v(ua<1>) v(ua<0>)
-.save v(uo_out<7>)
-.save v(uo_out<6>)
-.save v(uo_out<5>)
-.save v(uo_out<4>)
-.save v(uo_out<3>)
-.save v(uo_out<2>)
-.save v(uo_out<1>)
-.save v(uo_out<0>)
-.save v(ui_in<0>)
-.save v(ui_in<1>)
+.save v(ro) v(ua[1]) v(ua[0])
+.save v(uo_out[7])
+.save v(uo_out[6])
+.save v(uo_out[5])
+.save v(uo_out[4])
+.save v(uo_out[3])
+.save v(uo_out[2])
+.save v(uo_out[1])
+.save v(uo_out[0])
+.save v(ui_in[0])
+.save v(ui_in[1])
 .save v(xdut.sarp)
 .save v(xdut.sarn)
 .save v(clk)
 .save i(VDD)
+.save v(xdut.SUNSAR_SAR8B_CV_0.SARP)
+.save v(xdut.SUNSAR_SAR8B_CV_0.SARN)
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------
