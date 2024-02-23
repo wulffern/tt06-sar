@@ -83,4 +83,4 @@ plt.tight_layout()
 if(len(sys.argv)> 2):
     plt.show()
 else:
-    plt.savefig(runfile.replace(".run",".svg"))
+    plt.savefig(runfile.replace(".run",".png"))

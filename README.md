@@ -76,7 +76,7 @@ make typical OPT="Debug"
 | ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran.spi | Full simulation of SAR, takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
 
 
-![](ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran_Lay_typical.svg)
+![](ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran_Lay_typical.png)
 
 # Key parameters
 | Parameter                 | Min | Typ      | Max | Unit |
