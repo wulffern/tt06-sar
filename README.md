@@ -77,7 +77,7 @@ make typical OPT="Debug"
 
 
 
-![typical corner FFT](ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran_Lay_typical.png)
+![typical corner FFT](ip/tt06_sar_sky130nm/sim/TT06_SAR/tran_Lay_typical.png)
 
 
 
