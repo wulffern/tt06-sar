@@ -5,7 +5,7 @@ project:
   discord:      "cwulffern"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "8-bit Successive Approximation Register ADC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     4000000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -20,8 +20,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Sample Clock"
-  ui[1]: "Enable ADC"
+  ui[0]: "Enable ADC"
+  ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
