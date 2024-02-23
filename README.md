@@ -76,18 +76,20 @@ make typical OPT="Debug"
 | ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran.spi | Full simulation of SAR, takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
 
 
+![](ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran_Lay_typical.svg)
+
 # Key parameters
-| Parameter                            | Min | Typ      | Max | Unit |
-|:-------------------------------------|:---:|:--------:|:---:|:----:|
-| Technology                           |     | SKY130NM |     |      |
-| AVDD                                 | 1.7 | 1.8      | 1.9 | V    |
-| Temperature                          | -40 | 27       | 125 | C    |
-| Sampling frequency 25% DTC CK_SAMPLE |     |          | 8   | MHz  |
-| Average current VPWR                 |     | 33       |     | uA   |
-| Power consumption                    |     | 60       |     | uW   |
-| SNDR without device noise            |     |          |     | dBFS |
-| SFDR                                 |     |          |     | dBc  |
-| ENOB without device noise            |     |          |     | bit  |
+| Parameter                 | Min | Typ      | Max | Unit |
+|:--------------------------|:---:|:--------:|:---:|:----:|
+| Technology                |     | SKY130NM |     |      |
+| AVDD                      | 1.7 | 1.8      | 1.9 | V    |
+| Temperature               | -40 | 27       | 125 | C    |
+| Sampling frequency (CLK)  |     |          | 4   | MHz  |
+| Average current VPWR      |     | 45       |     | uA   |
+| Power consumption         |     | 80       |     | uW   |
+| SNDR without device noise |     | 42.8     |     | dBFS |
+| SFDR                      |     | 51.22    |     | dBc  |
+| ENOB without device noise |     | 6.82     |     | bit  |
 
 
 

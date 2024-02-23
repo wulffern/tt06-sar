@@ -52,7 +52,7 @@ for f in files:
 
     fullscale_in = 2
 
-    sigi = (df["v(ua<1>)"] - df["v(ua<0>)"])/fullscale_in
+    sigi = (df["v(ua[1])"] - df["v(ua[0])"])/fullscale_in
     saro = df["v(ro)"]
 
     sigixx =  sigi.resample(pd.Timedelta(tsample,unit="ns")).first()
@@ -74,8 +74,8 @@ for f in files:
     #axes[0].stem(ydB3,label=f + " v(ro):" + paramToStr(data3),linefmt=':',bottom=-100)
 
 axes[0].set_ylabel("Power Spectrum [dBFS]")
-axes[0].set_xlabel(" FFT bin")
-axes[0].grid()
+axes[0].set_xlabel("FFT bin")
+axes[0].grid(True)
 axes[0].legend()
 axes[0].axis([0,len(ydB3),-100,10])
 plt.tight_layout()
@@ -83,4 +83,4 @@ plt.tight_layout()
 if(len(sys.argv)> 2):
     plt.show()
 else:
-    plt.savefig(runfile.replace(".run",".png"))
+    plt.savefig(runfile.replace(".run",".svg"))
