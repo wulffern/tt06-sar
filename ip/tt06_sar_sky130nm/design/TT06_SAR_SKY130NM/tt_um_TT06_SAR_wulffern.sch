@@ -32,7 +32,7 @@ lab=CK_SAMPLE_BSSW}
 N 600 -520 640 -520 {
 lab=CK_SAMPLE}
 N 600 -540 640 -540 {
-lab=ui_in[1]}
+lab=ui_in[0]}
 N 600 -560 640 -560 {
 lab=clk}
 N 600 -300 640 -300 {
@@ -103,7 +103,6 @@ C {devices/ipin.sym} 130 -560 0 0 {name=p9 lab=ena}
 C {devices/ipin.sym} 130 -520 0 0 {name=p10 lab=clk}
 C {devices/ipin.sym} 130 -480 0 0 {name=p11 lab=rst_n}
 C {SUN_SAR9B_SKY130NM/SUNSAR_SAR8B_CV.sym} 1150 -550 0 0 {name=x1 }
-C {SUN_SAR9B_SKY130NM/SUNSAR_SARCAPTURE_CV.sym} 660 -560 0 0 {name=x2 }
 C {devices/lab_wire.sym} 600 -460 0 0 {name=p12 sig_type=std_logic lab=D<7>}
 C {devices/lab_wire.sym} 600 -440 0 0 {name=p13 sig_type=std_logic lab=D<6>}
 C {devices/lab_wire.sym} 600 -420 0 0 {name=p14 sig_type=std_logic lab=D<5>}
@@ -148,3 +147,4 @@ C {devices/lab_wire.sym} 1090 -530 0 0 {name=p52 sig_type=std_logic lab=ua[0]}
 C {cborder/border_s.sym} 1260 -160 0 0 {}
 C {devices/lab_wire.sym} 1090 -510 0 0 {name=p53 sig_type=std_logic lab=SARN}
 C {devices/lab_wire.sym} 1090 -490 0 0 {name=p54 sig_type=std_logic lab=SARP}
+C {SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sym} 660 -560 0 0 {name=x2 }
