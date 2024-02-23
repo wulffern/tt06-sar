@@ -41,9 +41,9 @@ The main testbench is `ip/tt06_sar_sky130nm/sim/TT6_06`
 Apply a differential voltage with a common mode of around VDD/2 to ua[1] and
 ua[0].
 
-Apply a 25 % duty-cycle, max 8 MHz, clock to ui_in[0].
+Apply a 25 % duty-cycle, max 8 MHz, clock to clk.
 
-Set ui_in[1] high to enable the ADC
+Set ui_in[0] high to enable the ADC
 
 The digital outputs uo_out[7:0] is two's complement digital output.
 
