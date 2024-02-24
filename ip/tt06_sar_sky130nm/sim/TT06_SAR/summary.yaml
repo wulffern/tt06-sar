@@ -1,16 +1,22 @@
-description: TB_NCM
+description: TT06_SAR
 simulations:
    tran:
-    name: Transient analysis
+    name: Dynamic parameters
     description: |
-      Check transient operation
+      Verify response to a sinusoid input signal
     data:
-      - name: Sch_typ
-        src: results/tran_Sch_typical
+      - name: Lay_typ
+        src: results/tran_Lay_typical
         method: typical
-      - name: Sch_etc
-        src: results/tran_Sch_etc
+      - name: Layr_typ
+        src: results/tran_Layr_typical
+        method: typical
+      - name: Lay_slow
+        src: results/tran_Lay_slow
         method: minmax
-      - name: Sch_3std
-        src: results/tran_Sch_mc
-        method: 3std
+      - name: Lay_fast
+        src: results/tran_Lay_fast
+        method: minmax
+      #- name: Sch_3std
+      #  src: results/tran_Sch_mc
+      #  method: 3std

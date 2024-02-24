@@ -10,27 +10,42 @@ Carsten Wulff carsten@wulff.no
 Many years ago I made a compiler, and a state-of-the-art compiled ADC in 28 nm
 FDSOI, described in [A Compiled 9-bit 20-MS/s
 3.5-fJ/conv.step SAR ADC in 28-nm FDSOI for Bluetooth Low Energy
-Receivers](https://ieeexplore.ieee.org/document/7906479). Since then, I've
+Receivers](https://ieeexplore.ieee.org/document/7906479). 
+
+Since then, I've
 ported the ADC to multiple closed PDKs (22 nm FDSOI, 22 nm, 28 nm, 55 nm, 65 nm and
 130nm). A while ago I ported to Skywater 130nm
 [SUN_SAR9B_SKY130NM](https://github.com/wulffern/sun_sar9b_sky130nm/tree/main).
 
-The fact that tiny-tapeout now includes analog possibility inspired me to try
-and see if I could fit into the tiny tapeout area. The original 9-bit ADC did
+The fact that Tiny Tapeout now includes analog possibility inspired me to try
+and see if I could fit into the Tiny Tapeout area. The original 9-bit ADC did
 not fit, so I had to reduce it to 8-bit.
 
-Took a few days, but I think it's ready to tapeout (need to complete the sims
-though).
+Took a few days, but I think it's ready to tapeout (need to complete the
+verification plan though).
+
+# Key parameters
+| Parameter                | Min | Typ      | Max | Unit |
+|:-------------------------|:---:|:--------:|:---:|:----:|
+| Technology               |     | SKY130NM |     |      |
+| AVDD                     | 1.7 | 1.8      | 1.9 | V    |
+| Temperature              | -40 | 27       | 125 | C    |
+| Sampling frequency (CLK) |     |          | 4   | MHz  |
+| Average current VPWR     |     | 45       |     | uA   |
+| SNDR                     |     | 46       |     | dBFS |
+| SFDR                     |     | 53       |     | dBc  |
+| ENOB                     |     | 7.1      |     | bit  |
 
 
 # Clone and have a look
+
+
 ``` bash
 git clone --recursive git@github.com:wulffern/tt06-sar.git
 cd tt06-sar/ip/tt06_sar_sky130nm/work/
 xschem -b ../design/TT06_SAR_SKY130NM/tt_um_TT06_SAR_wulffern.sch &
 magic ../design/TT06_SAR_SKY130NM/tt_um_TT06_SAR_wulffern.mag &
 ```
-
 
 # How
 Made with [ciccreator](https://github.com/wulffern/ciccreator) and
@@ -47,56 +62,54 @@ ip/sun_sar9b_sky130nm/cic
 └── sky130.tech                  # Technology file for Skywater 130 nm
 ```
 
-# Compiler
 The SAR is pre-compiled, so you don't really need to compile it. The compiled files are
-in the `ip/sun_sar9b_sky130nm/design/` directory
+in the `ip/sun_sar9b_sky130nm/design/` directory.
 
-To compile the ADC you need
+If you want to try the compilation, then compile ciccreator and cicpy, next 
 
-- Compiler [ciccreator](https://github.com/wulffern/ciccreator)
-- Transpiler [cicpy](https://github.com/wulffern/cicpy)
+```
+cd ip/sun_sar9b_sky130nm/work
+make ip
+```
 
+# Links
+
+[Magic manual](https://analogicus.com/magic/commands.html)
+
+[Skywater 130 nm analog tutorial](https://analogicus.com/rply_ex0_sky130nm/tutorial)
 
 # Running simulation
 
 You need [cicsim](https://github.com/wulffern/cicsim) to run the
 simulations.
 
-If you think everything is installed, then try 
+``` bash
+python3 -m pip install cicsim
+```
+
+Then
 
 ``` bash
 cd ip/TT06_SAR_SKY130NM/sim/TT06_SAR 
 make typical OPT="Debug"
 ```
 
-# Testbenches
+# Verification plan 
 
-| Name                                       | Purpose                                                   | Notes                                 |
-|:-------------------------------------------|-----------------------------------------------------------|---------------------------------------|
-| ip/TT06_SAR_SKY130NM/sim/TT06_SAR/tran.spi | Full simulation of SAR, takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
+Testbench folder `ip/TT06_SAR_SKY130NM/sim/TT06_SAR/`
 
-
-
-![typical corner FFT](ip/tt06_sar_sky130nm/sim/TT06_SAR/tran_Lay_typical.png)
-
-
-
-# Key parameters
-| Parameter                 | Min | Typ      | Max | Unit |
-|:--------------------------|:---:|:--------:|:---:|:----:|
-| Technology                |     | SKY130NM |     |      |
-| AVDD                      | 1.7 | 1.8      | 1.9 | V    |
-| Temperature               | -40 | 27       | 125 | C    |
-| Sampling frequency (CLK)  |     |          | 4   | MHz  |
-| Average current VPWR      |     | 45       |     | uA   |
-| Power consumption         |     | 80       |     | uW   |
-| SNDR without device noise |     | 42.8     |     | dBFS |
-| SFDR                      |     | 51.22    |     | dBc  |
-| ENOB without device noise |     | 6.82     |     | bit  |
+| Purpose                                            | Testbench | corner   | Status             | Notes                                 |
+|:---------------------------------------------------|:----------|:---------|--------------------|---------------------------------------|
+| SNDR, SFDR, ENOB, active current                   | tran      | tfs + C  | :white_check_mark: | python3 tran.py <runfile> to plot FFT |
+|                                                    | tran      | typ + RC | :x:                |                                       |
+| Check power down after 1 sample and stopping clock | pwrdwn    | etc      | :x:                |                                       |
 
 
+Results at [TT06\_SAR](ip/tt06_sar_sky130nm/sim/TT06_SAR/TT06_SAR.md)
 
+Below is a Power Spectrum of a sinusoidal input signal
 
+![typical fast slow  FFT](ip/tt06_sar_sky130nm/sim/TT06_SAR/tran_Lay_tfs.png)
 
 ---
 

@@ -1,16 +1,5 @@
-*TB_SUN_TR_SKY130NM/TB_NCM
-*----------------------------------------------------------------
-* Include
-*----------------------------------------------------------------
-#ifdef Lay
-.include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lpe.spi
-#else
-*.include ../../../work/lpe/SUNSAR_SARBSSW_CV_lpe.spi
-*.include ../../../work/lpe/SUNSAR_CDAC7_CV_lpe.spi
-.include ../../../work/lpe/SUNSAR_SAR8B_CV_lpe.spi
-.include ../../../work/xsch/tt_um_TT06_SAR_wulffern.spice
+*TT06_SAR/tran
 
-#endif
 
 *-----------------------------------------------------------------
 * OPTIONS
@@ -71,11 +60,6 @@ XDAC  uo_out[7] uo_out[6] uo_out[5] uo_out[4] uo_out[3] uo_out[2] uo_out[1] uo_o
 B1 RO_VDD 0 V = -1/2*V(DATA_7) + 1/4*V(DATA_6) + 1/8*V(DATA_5) + 1/16*V(DATA_4) + 1/32*V(DATA_3)+ 1/64*V(DATA_2) + 1/128*V(DATA_1) + 1/256*V(DATA_0)
 B2 RO 0 V = V(RO_VDD)/V(VDD)
 .ENDS
-
-*----------------------------------------------------------------
-* MEASURES
-*----------------------------------------------------------------
-
 
 *----------------------------------------------------------------
 * PROBE

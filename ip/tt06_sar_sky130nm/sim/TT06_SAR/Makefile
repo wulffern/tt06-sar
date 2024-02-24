@@ -41,7 +41,8 @@ temp: netlist
 	cicsim run --name ${VIEW}_temp ${TB} ${OPT} ${VIEW} Gt "Ktt" "Tt,Th,Tl" Vt
 
 summary:
-	cicsim summary --output "README.md"
+	cicsim summary --output "TT06_SAR.md"
+	pandoc -s --css pandoc.css TT06_SAR.md -o TT06_SAR.html
 
 slide:
 	pandoc -s  -t slidy README.md -o README.html

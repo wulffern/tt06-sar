@@ -1,10 +1,52 @@
-#<name>:
-#  src:
-#    - <paramters>
-#  typ: <typical spec value>
-#  name: <long name>
-#  min: <minimum spec value>
-#  max: <maximum spec value>
-#  scale: <scale, multiply result by scale>
-#  digits: <significant digits>
-#  unit: Unit
+sndr:
+  src:
+    - SNDR
+    - SNDR_FS
+  typ: 45
+  name: Signal to noise and distortion ratio
+  min: 40
+  max: 50
+  scale: 1
+  digits: 1
+  unit: dB
+sfdr:
+  src:
+    - SFDR
+  typ: 50
+  name: Spurious free dynamic range
+  min: 40
+  max: 70
+  scale: 1
+  digits: 1
+  unit: dBc
+enob:
+  src:
+    - ENOB
+    - ENOB_FS
+  typ: 7
+  name: Effective number of bits
+  min: 6.5
+  max: 7.9
+  scale: 1
+  digits: 2
+  unit: bits
+idd:
+  src:
+    - iavdd
+  typ: 50
+  name: Active current
+  min: 30
+  max: 60
+  scale: -1e6
+  digits: 1
+  unit: uA
+amp:
+  src:
+    - AMP
+  typ: -3
+  name: FFT input amplitude
+  min: -6
+  max: -0.2
+  scale: 1
+  digits: 2
+  unit: dB

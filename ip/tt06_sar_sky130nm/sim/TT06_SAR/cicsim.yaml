@@ -1,6 +1,14 @@
 corner:
-  Lay: ''
-  Sch: ''
+  Lay: |
+
+    .include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lpe.spi
+  Layr: |
+
+    .include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lper.spi
+  Sch: |
+
+    .include ../../../work/lpe/SUNSAR_SAR8B_CV_lpe.spi
+    .include ../../../work/xsch/tt_um_TT06_SAR_wulffern.spice
 ngspice:
   library: TT06_SAR_SKY130NM
   cell: TT06_SAR
