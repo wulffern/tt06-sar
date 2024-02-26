@@ -93,13 +93,29 @@ N 1090 -510 1130 -510 {
 lab=SARN}
 N 1090 -490 1130 -490 {
 lab=SARP}
+N 600 -80 640 -80 {
+lab=TIE_L}
+N 1310 -1030 1350 -1030 {
+lab=uio_out[7:0]}
+N 1310 -930 1360 -930 {
+lab=uio_oe[7:0]}
+N 1220 -930 1250 -930 {
+lab=TIE_L2}
+N 1220 -1030 1250 -1030 {
+lab=TIE_L1}
+N 1140 -930 1160 -930 {
+lab=TIE_L}
+N 1140 -1030 1140 -930 {
+lab=TIE_L}
+N 1140 -1030 1160 -1030 {
+lab=TIE_L}
 C {devices/ipin.sym} 130 -690 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 120 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}
 C {devices/opin.sym} 1510 -660 0 0 {name=p4 lab=uo_out[7:0]}
 C {devices/ipin.sym} 1540 -990 0 0 {name=p5 lab=uio_in[7:0]}
-C {devices/opin.sym} 1530 -960 0 0 {name=p6 lab=uio_out[7:0]}
-C {devices/opin.sym} 1530 -920 0 0 {name=p7 lab=uio_oe[7:0]}
+C {devices/opin.sym} 1350 -1030 0 0 {name=p6 lab=uio_out[7:0]}
+C {devices/opin.sym} 1350 -930 0 0 {name=p7 lab=uio_oe[7:0]}
 C {devices/iopin.sym} 130 -600 2 0 {name=p8 lab=ua[7:0]}
 C {devices/ipin.sym} 130 -560 0 0 {name=p9 lab=ena}
 C {devices/ipin.sym} 130 -520 0 0 {name=p10 lab=clk}
@@ -150,3 +166,27 @@ C {cborder/border_s.sym} 1260 -160 0 0 {}
 C {devices/lab_wire.sym} 1090 -510 0 0 {name=p53 sig_type=std_logic lab=SARN}
 C {devices/lab_wire.sym} 1090 -490 0 0 {name=p54 sig_type=std_logic lab=SARP}
 C {SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sym} 660 -560 0 0 {name=x2 }
+C {sky130_fd_pr/res_generic_m4.sym} 1280 -930 1 0 {name=R1[7:0]
+W=0.3
+L=0.3
+model=res_generic_m4
+mult=1}
+C {sky130_fd_pr/res_generic_m4.sym} 1280 -1030 1 0 {name=R2[7:0]
+W=0.3
+L=0.3
+model=res_generic_m4
+mult=1}
+C {devices/lab_wire.sym} 600 -80 0 0 {name=p55 sig_type=std_logic lab=TIE_L}
+C {sky130_fd_pr/res_generic_m4.sym} 1190 -1030 1 0 {name=R3
+W=0.3
+L=0.3
+model=res_generic_m4
+mult=1}
+C {sky130_fd_pr/res_generic_m4.sym} 1190 -930 1 0 {name=R4
+W=0.3
+L=0.3
+model=res_generic_m4
+mult=1}
+C {devices/lab_wire.sym} 1140 -975 0 0 {name=p56 sig_type=std_logic lab=TIE_L}
+C {devices/lab_wire.sym} 1240 -1030 0 0 {name=p57 sig_type=std_logic lab=TIE_L1}
+C {devices/lab_wire.sym} 1245 -930 0 0 {name=p58 sig_type=std_logic lab=TIE_L2}

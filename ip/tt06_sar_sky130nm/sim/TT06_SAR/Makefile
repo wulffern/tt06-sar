@@ -5,7 +5,7 @@ all: typical etc mc summary
 include ../../tech/make/sim.make
 
 TB=tran
-VIEW=Lay
+VIEW=Layr
 #VIEW=Lay
 CELL=tt_um_TT06_SAR_wulffern
 LIB =TT06_SAR_SKY130NM
