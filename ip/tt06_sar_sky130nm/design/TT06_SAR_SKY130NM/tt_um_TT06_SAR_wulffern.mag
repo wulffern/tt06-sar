@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708693736
+timestamp 1708861815
 << locali >>
 rect 26658 39586 26726 43886
 << viali >>
@@ -647,11 +647,11 @@ rect 22480 0 22600 200
 rect 26896 0 27016 299
 rect 31312 0 31432 581
 use SUNSAR_CAPT8B_CV  SUNSAR_CAPT8B_CV_0 ../SUN_SAR9B_SKY130NM
-timestamp 1708692311
+timestamp 1708861815
 transform 1 0 2306 0 1 40314
 box -180 -788 22860 4004
 use SUNSAR_SAR8B_CV  SUNSAR_SAR8B_CV_0 ../SUN_SAR9B_SKY130NM
-timestamp 1708692311
+timestamp 1708861815
 transform 1 0 2448 0 1 2648
 box -1922 -1864 24278 37062
 << labels >>

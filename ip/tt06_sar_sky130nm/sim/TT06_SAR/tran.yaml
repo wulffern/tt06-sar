@@ -1,10 +1,19 @@
 sndr:
   src:
     - SNDR
-    - SNDR_FS
   typ: 45
   name: Signal to noise and distortion ratio
-  min: 40
+  min: 38
+  max: 50
+  scale: 1
+  digits: 1
+  unit: dB
+sndrfs:
+  src:
+    - SNDR_FS
+  typ: 45
+  name: Signal to noise and distortion ratio (FS)
+  min: 42
   max: 50
   scale: 1
   digits: 1
@@ -22,10 +31,19 @@ sfdr:
 enob:
   src:
     - ENOB
-    - ENOB_FS
   typ: 7
   name: Effective number of bits
-  min: 6.5
+  min: 6.1
+  max: 7.9
+  scale: 1
+  digits: 2
+  unit: bits
+enobfs:
+  src:
+    - ENOB_FS
+  typ: 7
+  name: Effective number of bits (FS)
+  min: 6.8
   max: 7.9
   scale: 1
   digits: 2
@@ -36,7 +54,7 @@ idd:
   typ: 50
   name: Active current
   min: 30
-  max: 60
+  max: 70
   scale: -1e6
   digits: 1
   unit: uA
