@@ -83,6 +83,7 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 .save i(VDD)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARP)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARN)
+.save v(vpwr)
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------

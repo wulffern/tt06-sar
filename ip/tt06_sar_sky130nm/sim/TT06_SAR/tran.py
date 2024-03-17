@@ -5,10 +5,14 @@ import pandas as pd
 import numpy as np
 import cicsim as cs
 import matplotlib.pyplot as plt
+import matplotlib
 import glob
 import os
 import sys
 import seaborn as sns
+
+#- Sample clock of ADC
+tsample = 250
 
 
 def paramToStr(data):
@@ -17,8 +21,6 @@ def paramToStr(data):
 
 def calc(fname):
 
-    #- Sample clock of ADC
-    tsample = 250
 
     dfs = cs.toDataFrames(cs.ngRawRead(fname + ".raw"))
     df = dfs[0]
@@ -36,6 +38,7 @@ def calc(fname):
     return (data,ydB)
 
 def main(name):
+
     yamlfile = name + ".yaml"
 
     # Read result yaml file
@@ -50,6 +53,18 @@ def main(name):
     obj["ENOB"] = float(data["enob"])
     obj["SNDR_FS"]= float(data["sndr"] - data["amp"])
     obj["ENOB_FS"] = float((obj["SNDR_FS"]-1.76)/6.02)
+
+
+    #- Hack to get supply since I forgot to print
+    obj["avdd"] = 1.8
+    if("Vh" in name):
+        obj["avdd"] = 1.9
+    elif("Vl" in name):
+        obj["avdd"] = 1.7
+
+    obj["PWR"] = -obj["iavdd"]*obj["avdd"]
+    #-Walden FOM
+    obj["FOM_FS"] = float( obj["PWR"] / ( 2**obj["ENOB_FS"]*(1/(tsample * 1e-9)) ) )
 
     # Save new yaml file
     with open(yamlfile,"w") as fo:
@@ -77,6 +92,7 @@ def plot():
 
     f,ax = plt.subplots(1,1,sharex=False)
 
+
     axes = list()
     axes.append(ax)
     f.set_figheight(8)
@@ -102,4 +118,6 @@ def plot():
 
 
 if __name__ == "__main__":
+
+
     plot()

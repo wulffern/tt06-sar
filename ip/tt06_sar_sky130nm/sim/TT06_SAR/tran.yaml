@@ -68,3 +68,14 @@ amp:
   scale: 1
   digits: 2
   unit: dB
+
+fom:
+  src:
+    - FOM_FS
+  typ: 100
+  name: Walden FOM
+  min: 50
+  max: 200
+  scale: 1e15
+  digits: 2
+  unit: fJ/step

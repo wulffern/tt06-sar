@@ -9,52 +9,59 @@ Verify response to a sinusoid input signal
 |**Name**|**Parameter**|**Description**| |**Min**|**Typ**|**Max**| Unit|
 |:---|:---|:---|---:|:---:|:---:|:---:| ---:|
 |**Signal to noise and distortion ratio**|**SNDR** | | **Spec**  | **38.0** | **45.0** | **50.0** | **dB** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 42.8 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 42.2 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|43.3 | 45.2 | 47.1 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|42.4 | 43.3 | 44.2 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|39.6 | 43.0 | 46.4 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|40.9 | 42.6 | 44.4 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 42.4 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|39.6 | 43.9 | 44.7 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|40.5 | 42.4 | 44.2 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 43.2 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|<span style='color:red'>**36.3**</span> | 42.9 | 44.5 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|40.3 | 42.0 | 43.7 | |
 |**Signal to noise and distortion ratio (FS)**|**SNDR\_FS** | | **Spec**  | **42.0** | **45.0** | **50.0** | **dB** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 44.9 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 45.5 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|44.8 | 46.7 | 48.6 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|45.0 | 45.8 | 46.7 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|43.4 | 46.4 | 49.3 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|44.2 | 46.0 | 47.7 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 45.6 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|43.2 | 46.8 | 48.0 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|43.6 | 45.5 | 47.3 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 46.3 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|<span style='color:red'>**38.9**</span> | 45.9 | 47.6 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|43.4 | 45.1 | 46.8 | |
 |**Spurious free dynamic range**|**SFDR** | | **Spec**  | **40.0** | **50.0** | **70.0** | **dBc** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 51.2 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 51.2 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|51.0 | 53.3 | 55.7 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|52.7 | 53.2 | 53.8 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|45.0 | 52.3 | 55.7 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|47.1 | 51.8 | 56.5 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 51.6 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|45.0 | 49.5 | 54.7 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|45.6 | 50.9 | 56.2 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 52.4 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|43.2 | 49.2 | 52.9 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|45.5 | 50.2 | 55.0 | |
 |**Effective number of bits**|**ENOB** | | **Spec**  | **6.10** | **7.00** | **7.90** | **bits** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 6.82 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 6.72 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|6.90 | 7.21 | 7.52 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|6.75 | 6.90 | 7.05 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|6.29 | 6.86 | 7.42 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|6.50 | 6.79 | 7.08 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 6.76 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|6.29 | 7.00 | 7.14 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|6.43 | 6.74 | 7.05 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 6.88 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|<span style='color:red'>**5.74**</span> | 6.83 | 7.10 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|6.40 | 6.68 | 6.97 | |
 |**Effective number of bits (FS)**|**ENOB\_FS** | | **Spec**  | **6.80** | **7.00** | **7.90** | **bits** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 7.16 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 7.27 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|7.15 | 7.47 | 7.78 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|7.18 | 7.32 | 7.47 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|6.91 | 7.41 | 7.89 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|7.06 | 7.34 | 7.63 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 7.28 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|6.88 | 7.48 | 7.68 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|6.95 | 7.26 | 7.57 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 7.40 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|<span style='color:red'>**6.18**</span> | 7.32 | 7.61 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|6.92 | 7.21 | 7.49 | |
 |**Active current**|**iavdd** | | **Spec**  | **30.0** | **50.0** | **70.0** | **uA** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 46.6 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 46.2 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|42.9 | 44.6 | 46.3 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|47.5 | 53.1 | 58.7 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|41.0 | 47.6 | 66.6 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|45.9 | 46.1 | 46.3 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 47.0 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|41.8 | 48.5 | 67.7 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|46.7 | 47.0 | 47.3 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 47.0 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|41.8 | 48.5 | 67.6 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|46.7 | 47.0 | 47.2 | |
 |**FFT input amplitude**|**AMP** | | **Spec**  | **-6.00** | **-3.00** | **-0.20** | **dB** |
-| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | -2.06 |  | |
-| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | -3.32 |  | |
-| | | |<a href='results/tran_Lay_slow.html'>Lay_slow</a>|-1.57 | -1.55 | -1.53 | |
-| | | |<a href='results/tran_Lay_fast.html'>Lay_fast</a>|-2.56 | -2.54 | -2.52 | |
-| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|-3.83 | -3.30 | -2.74 | |
-| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|-3.33 | -3.32 | -3.30 | |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | -3.14 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|-3.65 | -3.13 | -2.55 | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|-3.16 | -3.14 | -3.11 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | -3.12 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|-3.65 | -3.13 | -2.55 | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|-3.16 | -3.14 | -3.12 | |
+|**Walden FOM**|**FOM\_FS** | | **Spec**  | **50.00** | **100.00** | **200.00** | **fJ/step** |
+| | | |<a href='results/tran_Lay_typical.html'>Lay_typ</a>| | 136.06 |  | |
+| | | |<a href='results/tran_Lay_etc.html'>Lay_etc</a>|98.50 | 121.44 | <span style='color:red'>**218.19**</span> | |
+| | | |<a href='results/tran_Lay_mc.html'>Lay_3std</a>|108.42 | 137.95 | 167.47 | |
+| | | |<a href='results/tran_Layr_typical.html'>Layr_typ</a>| | 125.44 |  | |
+| | | |<a href='results/tran_Layr_etc.html'>Layr_etc</a>|99.04 | 146.54 | <span style='color:red'>**253.70**</span> | |
+| | | |<a href='results/tran_Layr_mc.html'>Layr_3std</a>|115.30 | 143.51 | 171.72 | |
 

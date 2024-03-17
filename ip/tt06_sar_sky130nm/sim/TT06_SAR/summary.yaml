@@ -8,15 +8,15 @@ simulations:
       - name: Lay_typ
         src: results/tran_Lay_typical
         method: typical
+      - name: Lay_etc
+        src: results/tran_Lay_etc
+        method: minmax
+      - name: Lay_3std
+        src: results/tran_Lay_mc
+        method: 3std
       - name: Layr_typ
         src: results/tran_Layr_typical
         method: typical
-      - name: Lay_slow
-        src: results/tran_Lay_slow
-        method: minmax
-      - name: Lay_fast
-        src: results/tran_Lay_fast
-        method: minmax
       - name: Layr_etc
         src: results/tran_Layr_etc
         method: minmax

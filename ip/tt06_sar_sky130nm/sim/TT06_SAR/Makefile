@@ -11,7 +11,10 @@ CELL=tt_um_TT06_SAR_wulffern
 LIB =TT06_SAR_SKY130NM
 OPT=
 
-
+all:
+	${MAKE} typical etc mc VIEW=Layr OPT=${OPT}
+	${MAKE} typical etc mc VIEW=Lay OPT=${OPT}
+	${MAKE} summary
 
 test:
 	${MAKE} typical OPT="Debug"

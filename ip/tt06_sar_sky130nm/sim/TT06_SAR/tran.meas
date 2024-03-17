@@ -7,8 +7,8 @@ echo "MEAS_START"
 
 *meas tran tpd_done trig v(clk) val='0.9' rise=1 targ v(DONE) val='0.9' rise=1
 meas tran iavdd AVG i(VDD) TD='500n'
+*meas tran avdd AVG v(VPWR) TD='500n'
 *meas tran ivref AVG i(VREF) TD='500n'
-
 
 echo "MEAS_END"
 .endc

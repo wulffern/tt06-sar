@@ -5,8 +5,9 @@ K {}
 V {}
 S {}
 E {}
-T {8-bit successive approximation register analog-to-digital-converter} 180 -860 0 0 0.8 0.8 {}
+T {8-bit successive approximation register analog-to-digital-converter} 170 -830 0 0 0.8 0.8 {}
 T {Unused Ports} 1510 -1030 0 0 0.4 0.4 {}
+T {Power decoupling} 360 -700 0 0 0.4 0.4 {}
 N 1090 -550 1130 -550 {
 lab=ua[1]}
 N 1090 -530 1130 -530 {
@@ -109,6 +110,14 @@ N 1140 -1030 1140 -930 {
 lab=TIE_L}
 N 1140 -1030 1160 -1030 {
 lab=TIE_L}
+N 130 -690 340 -690 {
+lab=VPWR}
+N 340 -690 340 -670 {
+lab=VPWR}
+N 340 -610 340 -90 {
+lab=VGND}
+N 120 -90 340 -90 {
+lab=VGND}
 C {devices/ipin.sym} 130 -690 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 120 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}
@@ -162,7 +171,8 @@ C {devices/lab_wire.sym} 1090 -210 0 0 {name=p49 sig_type=std_logic lab=VPWR}
 C {devices/lab_wire.sym} 1090 -190 0 0 {name=p50 sig_type=std_logic lab=VGND}
 C {devices/lab_wire.sym} 1090 -550 0 0 {name=p51 sig_type=std_logic lab=ua[1]}
 C {devices/lab_wire.sym} 1090 -530 0 0 {name=p52 sig_type=std_logic lab=ua[0]}
-C {cborder/border_s.sym} 1260 -160 0 0 {}
+C {cborder/border_s.sym} 1260 -160 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"
+name=C1[8:0]}
 C {devices/lab_wire.sym} 1090 -510 0 0 {name=p53 sig_type=std_logic lab=SARN}
 C {devices/lab_wire.sym} 1090 -490 0 0 {name=p54 sig_type=std_logic lab=SARP}
 C {SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sym} 660 -560 0 0 {name=x2 }
@@ -190,3 +200,4 @@ mult=1}
 C {devices/lab_wire.sym} 1140 -975 0 0 {name=p56 sig_type=std_logic lab=TIE_L}
 C {devices/lab_wire.sym} 1240 -1030 0 0 {name=p57 sig_type=std_logic lab=TIE_L1}
 C {devices/lab_wire.sym} 1245 -930 0 0 {name=p58 sig_type=std_logic lab=TIE_L2}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 340 -640 0 0 {name=C2[8:0] model=cap_mim_m3_1 W=18 L=18 MF=1 spiceprefix=X}
