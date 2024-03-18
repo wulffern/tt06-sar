@@ -39,6 +39,10 @@ verification plan though).
 
 # Clone and have a look
 
+If you just want to see the layout, then go to
+[http://analogicus.com/tt06-sar/](http://analogicus.com/tt06-sar/)
+
+To have a look locally:
 
 ``` bash
 git clone --recursive git@github.com:wulffern/tt06-sar.git
@@ -101,7 +105,7 @@ Testbench folder `ip/TT06_SAR_SKY130NM/sim/TT06_SAR/`
 | Purpose                                            | Testbench | corner   | Status             | Notes                                 |
 |:---------------------------------------------------|:----------|:---------|--------------------|---------------------------------------|
 | SNDR, SFDR, ENOB, active current                   | tran      | tfs + C  | :white_check_mark: | python3 tran.py <runfile> to plot FFT |
-|                                                    | tran      | typ + RC | :x:                |                                       |
+|                                                    | tran      | typ + RC | :white_check_mark: | Low ENOB in some corners (VlTlKss)    |
 | Check power down after 1 sample and stopping clock | pwrdwn    | etc      | :x:                |                                       |
 
 
