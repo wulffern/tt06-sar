@@ -2,3 +2,4 @@ source ../tech/magic/.magicrc
 addpath ../design/TT06_SAR_SKY130NM
 #addpath ../design/
 addpath ../design/SUN_SAR9B_SKY130NM
+addpath ../design/SUN_TR_SKY130NM

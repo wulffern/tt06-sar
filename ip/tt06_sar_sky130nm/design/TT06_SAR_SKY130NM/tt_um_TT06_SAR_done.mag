@@ -1,0 +1,48 @@
+magic
+tech sky130A
+timestamp 1711897241
+<< metal1 >>
+rect 714 469 1260 499
+rect 0 293 432 323
+rect 0 73 216 103
+<< metal3 >>
+rect 378 0 478 352
+rect 774 0 874 352
+use SUNTR_BFX1_CV  x3 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+timestamp 1711839600
+transform 1 0 0 0 1 0
+box -90 -66 1350 418
+use SUNTR_TIEH_CV  x4 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+timestamp 1711839600
+transform 1 0 0 0 1 352
+box -90 -66 1350 242
+use SUNTR_TAPCELLB_CV  x5 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+timestamp 1711897241
+transform 1 0 0 0 1 528
+box -90 -66 1350 242
+use cut_M1M2_2x1  xcut0
+timestamp 1711839600
+transform 1 0 178 0 1 73
+box 0 0 92 34
+use cut_M1M2_2x1  xcut1
+timestamp 1711839600
+transform 1 0 394 0 1 293
+box 0 0 92 34
+use cut_M1M2_2x1  xcut2
+timestamp 1711839600
+transform 1 0 790 0 1 469
+box 0 0 92 34
+<< labels >>
+flabel metal1 s 0 73 108 103 0 FreeSans 200 0 0 0 DONE
+port 1 nsew signal bidirectional
+flabel metal1 s 0 293 108 323 0 FreeSans 200 0 0 0 uio_out<0>
+port 2 nsew signal bidirectional
+flabel metal1 s 1152 469 1260 499 0 FreeSans 200 0 0 0 uio_oe<0>
+port 3 nsew signal bidirectional
+flabel metal3 s 774 0 874 352 0 FreeSans 200 0 0 0 VPWR
+port 4 nsew signal bidirectional
+flabel metal3 s 378 0 478 352 0 FreeSans 200 0 0 0 VGND
+port 5 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 1260 704
+<< end >>

@@ -18,6 +18,8 @@ CELL=tt_um_TT06_SAR_wulffern
 #- Which libraries to make SVG files for
 SVGLIBS=TT06_SAR_SKY130NM
 
+CICEXCLUDE="^(${PREFIX}SUNTR_)"
+
 
 deliver:
 	magic -noconsole -dnull deliver.tcl
