@@ -40,7 +40,7 @@ pinout:
   uo[7]: "ADC MSB (two's complement)"
 
   # Bidirectional pins
-  uio[0]: ""
+  uio[0]: "Conversion Done"
   uio[1]: ""
   uio[2]: ""
   uio[3]: ""
