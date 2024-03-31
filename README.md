@@ -102,11 +102,11 @@ make typical OPT="Debug"
 
 Testbench folder `ip/TT06_SAR_SKY130NM/sim/TT06_SAR/`
 
-| Purpose                                            | Testbench | corner   | Status             | Notes                                 |
-|:---------------------------------------------------|:----------|:---------|--------------------|---------------------------------------|
-| SNDR, SFDR, ENOB, active current                   | tran      | tfs + C  | :white_check_mark: | python3 tran.py <runfile> to plot FFT |
-|                                                    | tran      | typ + RC | :white_check_mark: | Low ENOB in some corners (VlTlKss)    |
-| Check power down after 1 sample and stopping clock | pwrdwn    | etc      | :x:                |                                       |
+| Purpose                                        | Testbench | corner   | Status             | Notes                                 |
+|:-----------------------------------------------|:----------|:---------|--------------------|---------------------------------------|
+| SNDR, SFDR, ENOB, active current               | tran      | tfs + C  | :white_check_mark: | python3 tran.py <runfile> to plot FFT |
+|                                                | tran      | typ + RC | :white_check_mark: | Low ENOB in some corners (VlTlKss)    |
+| Check power down after 2 sample, clock running | pwrdwn    | typ      | :white_check_mark: |                                       |
 
 
 Results at [TT06\_SAR](ip/tt06_sar_sky130nm/sim/TT06_SAR/TT06_SAR.md)

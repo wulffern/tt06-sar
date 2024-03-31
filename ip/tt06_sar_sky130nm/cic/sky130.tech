@@ -1,0 +1,178 @@
+{
+    "version" : 2,
+    "layers" : {
+        "CO"  : { "alias" : "", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "PO",  "next" : "M1", "color" : "yellow"},
+        "NDIFFC"  : { "alias" : "ndcontact", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "NDIFF",  "next" : "M1", "color" : "yellow"},
+        "PDIFFC"  : { "alias" : "pdcontact", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "PDIFF",  "next" : "M1", "color" : "yellow"},
+        "PTAPC"  : { "alias" : "ptapc", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "PDIFF",  "next" : "M1", "color" : "yellow"},
+        "NTAPC"  : { "alias" : "ntapc", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "PDIFF",  "next" : "M1", "color" : "yellow"},
+        "PCO"  : { "alias" : "pcontact", "number" : 33, "datatype" : -1,  "material" : "cut",       "previous" : "PO",  "next" : "M1", "color" : "yellow"},
+
+        "OD"  : { "alias" : "","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "PTAPC", "pin" : "OD_pin", "color" : "green" },
+        "PDIFF"  : { "alias" : "pdiff","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+        "PTAP"  : { "alias" : "ptap","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+        "NTAP"  : { "alias" : "ntap","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+        "PDIFFB"  : { "alias" : "pdiff","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+        "NDIFF"  : { "alias" : "ndiff","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+        "NDIFFB"  : { "alias" : "ndiff","number" : 22,  "datatype" : -1,  "material" : "diffusion", "previous" : "",  "next" : "CO", "pin" : "OD_pin", "color" : "green" },
+
+        "DMYPO"  : { "alias" : "poly","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+        "PO"  : { "alias" : "poly","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+        "OP"  : { "alias" : "","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "yellow"},
+        "POB"  : { "alias" : "poly","number" : 30,  "datatype" : -1,  "material" : "implant",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+
+        "POXR"  : { "alias" : "xpolyres","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+        "CPOXR"  : { "alias" : "xpolycontact","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+        "POR"  : { "alias" : "ppolyres","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+        "CPOR"  : { "alias" : "polycontact","number" : 30,  "datatype" : -1,  "material" : "poly",      "previous" : "",  "next" : "CO", "pin" : "PO_pin" , "color" : "red"},
+
+        "PO_pin" : { "alias" : "","number" : 30, "datatype" : -1 },
+        "M1" : { "alias" : "locali",
+                 "number" : 34, "datatype": -1,
+                 "material" : "metal",
+                 "previous" : "",
+                 "next" : "VIA1",
+                 "pin" : "M1_pin" ,
+                 "res" : "M1_res",
+                 "color" : "blue"
+               },
+
+        "M1_pin" : { "alias" : "", "number" : 34, "datatype" : 237, "material" : "implant","fill":"fill","color" : "blue"},
+        "M1_res" : { "alias" : "rlocali", "number" : 110, "datatype" : 11, "material" : "metalres"},
+
+        "M2" : { "alias" : "m1","number" : 36, "datatype" : -1, "material" : "metal", "previous" : "VIA1",  "next" : "VIA2", "pin" : "M2_pin" , "res" : "M2_res", "color" : "goldenrod" },
+        "M2_pin" : { "alias" : "","number" : 36, "datatype" : 237, "material" : "implant","fill":"fill","color" : "goldenrod"},
+        "M2_res" : { "alias" : "rm1","number" : 110, "datatype" : 12, "material" : "metalres"},
+
+        "M3" : { "alias" : "m2","number" : 42, "datatype" : -1, "material" : "metal", "previous" : "VIA2",  "next" : "VIA3", "pin" : "M3_pin" , "res" : "M3_res", "color" : "aqua"},
+        "M3_pin" : { "alias" : "","number" : 42, "datatype" : 237, "material" : "implant","fill":"fill","color" : "aqua"},
+        "M3_res" : { "alias" : "rm2","number" : 110, "datatype" : 13, "material" : "metalres"},
+
+        "M4" : { "alias" : "m3","number" : 46, "datatype" : -1, "material" : "metal", "previous" : "VIA3",  "next" : "VIA4", "pin" : "M4_pin" , "res" : "M4_res", "color" : "darkgreen"},
+        "M4_pin" : { "alias" : "","number" : 46, "datatype" : 237, "material" : "implant","fill":"fill","color" : "darkgreen"},
+        "M4_res" : { "alias" : "rm3","number" : 110, "datatype" : 14, "material" : "metalres"},
+
+        "M5" : { "alias" : "m4","number" : 81, "datatype" : -1, "material" : "metal", "previous" : "VIA4",  "next" : "VIA5", "pin" : "M5_pin", "res" : "M5_res", "color" : "brown" },
+        "M5_pin" : { "alias" : "","number" : 81, "datatype" : 237, "material" : "implant","fill":"fill","color" : "brown"},
+        "M5_res" : { "alias" : "rm4","number" : 110, "datatype" : 15, "material" : "metalres"},
+
+        "VIA1" : { "alias" : "viali","number" : 35, "datatype" : -1, "material" : "cut", "previous" : "M1", "next" : "M2" ,"color" : "blue","fill" : "fill"},
+        "VIA2" : { "alias" : "v1","number" : 38, "datatype" : -1, "material" : "cut", "previous" : "M2", "next" : "M3" ,"color" : "yellow","fill" : "fill"},
+        "VIA3" : { "alias" : "v2","number" : 40, "datatype" : -1, "material" : "cut", "previous" : "M3", "next" : "M4" ,"color" : "cyan","fill" : "fill"},
+        "VIA4" : { "alias" : "v3","number" : 41, "datatype" : -1, "material" : "cut", "previous" : "M4", "next" : "M5" ,"color" : "green","fill" : "fill"},
+        "VIA5" : { "alias" : "v4","number" : 82, "datatype" : -1, "material" : "cut", "previous" : "M5", "next" : "M6" },
+        "PR" : { "alias" : "","number" : 0, "datatype" : 20 ,"fill" : "nofill","color" : "red"},
+
+        "NW" : { "alias" : "nwell","number" : 21, "datatype" : -1 , "material" : "implant", "color" : "red","fill" : "nofill"},
+        "PP" : { "alias" : "pdiff","number" : 31, "datatype" : -1 , "material" : "implant", "color" : "pink","fill" : "nofill"},
+        "PPE" : { "alias" : "pdiff","number" : 31, "datatype" : -1 , "material" : "implant", "color" : "pink","fill" : "nofill"},
+        "NP" : { "alias" : "ndiff","number" : 32, "datatype" : -1 , "material" : "implant", "color" : "cyan","fill" : "nofill"},
+        "NPE" : { "alias" : "ndiff","number" : 32, "datatype" : -1 , "material" : "implant", "color" : "cyan","fill" : "nofill"},
+
+
+        "NWT" : { "alias" : "nwell","number" : 21, "datatype" : -1 , "material" : "implant", "color" : "red","fill" : "nofill"},
+        "PWT" : { "alias" : "pwell","number" : 21, "datatype" : -1 , "material" : "implant", "color" : "red","fill" : "nofill"},
+        "NLVT" : { "alias" : "nmoslvt","number" : 21, "datatype" : -1 , "material" : "implant", "color" : "red","fill" : "nofill"},
+        "PLVT" : { "alias" : "pmoslvt","number" : 21, "datatype" : -1 , "material" : "implant", "color" : "red","fill" : "nofill"},
+        "PPT" : { "alias" : "","number" : 31, "datatype" : -1 , "material" : "implant", "color" : "pink","fill" : "nofill"},
+        "NPT" : { "alias" : "","number" : 32, "datatype" : -1 , "material" : "implant", "color" : "cyan","fill" : "nofill"},
+
+
+
+        "TXT" : { "alias" : "","number" : 58, "datatype" :-1 , "material" : "marker" , "color" : "black","fill" : "fill"}
+    },
+    "technology" :{
+        "gamma" : 200,
+        "grid" : 5,
+        "spiceunit":1,
+        "techlib" : "sky130A",
+        "devices" : {
+             "rppo" : { "name" : "sky130_fd_pr__res_high_po",
+                         "devicetype" : "XR",
+                         "ports" : ["P","M","B"],
+                         "propertymap" : {
+                             "l" : { "name" : "length", "str" : ""},
+                             "w" : { "name" : "width", "str" : ""}
+                         }
+                       },
+             "mresM1" : { "name" : "sky130_fd_pr__res_generic_l1",
+                         "devicetype" : "R",
+                         "ports" : ["M","P"],
+                         "propertymap" : {
+                             "l" : { "name" : "length", "str" : ""},
+                             "w" : { "name" : "width", "str" : ""}
+                         }
+                       },
+            "mresM2" : { "inherit" : "mresM1", "name" : "sky130_fd_pr__res_generic_m1"},
+            "mresM3" : { "inherit" : "mresM1", "name" : "sky130_fd_pr__res_generic_m2"},
+            "mresM4" : { "inherit" : "mresM1", "name" : "sky130_fd_pr__res_generic_m3"},
+            "nch_lvt" : { "name" : "sky130_fd_pr__nfet_01v8_lvt",    "ports" : ["D","G","S","B"],
+                          "devicetype" : "XM",
+                          "propertymap" : {
+                              "l" : { "name" : "length", "str" : ""},
+                              "nf" : { "name" : "nf", "str" : ""},
+                              "w" : { "name" : "width", "str" : ""}
+                          }
+                        },
+            "pch_lvt"     : { "inherit" : "nch_lvt", "devicetype" : "XM", "name" : "sky130_fd_pr__pfet_01v8_lvt" },
+            "pch"     : { "inherit" : "nch_lvt", "devicetype" : "XM", "name" : "sky130_fd_pr__pfet_01v8" },
+            "nch"     : { "inherit" : "nch_lvt", "devicetype" : "XM", "name" : "sky130_fd_pr__nfet_01v8" }
+
+        },
+        "symbol_lib" : "cpdk",
+        "symbol_libs" : ["../../cpdk/design/cic",
+                         "../../cpdk/design/cic_wbulk",
+                         "$PDK_ROOT/sky130B/libs.tech/xschem/sky130_fd_pr"
+                        ]
+    },
+    "rules" : {
+        "ROUTE": { "horizontalgrid": 18, "verticalgrid" : 22 },
+        "CELL" : { "space" : 40, "digitalspace" : 18 },
+
+        "PPT"   : { "enclosure" : 0},
+        "NPT"   : { "enclosure" : 0},
+        "NWT"   : { "enclosure" : 0},
+        "PFIELD"   : { "enclosure" : 0, "digitalspace" : 0},
+
+        "PP"   : { "enclosure" : 20, "ODencOpposite" : 20,"digitalspace" :0},
+        "NP"   : { "enclosure" : 20, "ODencOpposite" : 20,"digitalspace" :0},
+        "NW"   : { "enclosure" : 20, "digitalspace" : 0},
+
+
+        "CO"   : { "space" : 10, "width" : 8 , "height" : 8},
+        "PTAPC"   : { "space" : 0, "width" : 20 , "height" : 20},
+        "VIA1" : { "space" : 12, "width" : 14 , "height" : 14},
+        "VIA2" : { "space" : 12, "width" : 14 , "height" : 14},
+        "VIA3" : { "space" : 12, "width" : 16 , "height" : 16},
+        "VIA4" : { "space" : 12, "width" : 16 , "height" : 16},
+        "VIA5" : { "space" : 12, "width" : 16 , "height" : 16},
+
+        "PDIFF" :{ "PTAPCencOpposite" : 4, "enclosure" : 4,"PTAPCenclosure" : 4},
+        "PTAP" :{ "PTAPCencOpposite" : 4, "enclosure" : 4,"PTAPCenclosure" : 4},
+
+
+        "PLVT"   : { "space" : 30, "width" : 9 , "mingatelength" : 9, "enclosure" : 2},
+        "NLVT"   : { "space" : 30, "width" : 9 , "mingatelength" : 9, "enclosure" : 2},
+        "PO"   : { "space" : 30, "width" : 9 , "mingatelength" : 9, "enclosure" : 2},
+        "POB"   : { "space" : 30, "width" : 9 , "mingatelength" : 9, "enclosure" : 2},
+
+        "OD"   : { "space" : 14, "enclosure" : 4, "PTAPCenclosure" : 4, "COencOpposite" : 4, "PTAPCencOpposite" : 4},
+        "ODB"   : { "space" : 14, "enclosure" : 4, "COencOpposite" : 4},
+
+        "NDIFFC"   : { "width" : 10},
+        "PDIFFC"   : { "width" : 10},
+
+        "M1"   : { "space" : 15, "ana_width": 15, "cap_width" : 15, "width" : 15, "minwidth":15,  "VIA1enclosure" : 1.5, "VIA1encOpposite" : 3, "capspace" : 16, "PTAPCenclosure": 0},
+        "M2"   : { "space" : 15, "width" : 15, "minwidth":15,  "VIA1encOpposite" : 3, "VIA1enclosure" : 1.5, "VIA2encOpposite" : 3, "VIA2enclosure" : 1.5, "capspace" : 16},
+        "M3"   : { "space" : 16, "width" : 19, "minwidth":15 , "VIA2enclosure" : 1.5, "VIA2encOpposite" : 3, "VIA3enclosure" : 1.5,"VIA3encOpposite" : 3, "capspace" : 16},
+        "M4"   : { "space" : 18, "width" : 19, "minwidth":15 , "cap_width" : 20, "VIA3enclosure" : 1.5, "VIA3encOpposite" : 3,"VIA4enclosure" : 1.5, "VIA4encOpposite" : 3, "capspace" : 16},
+        "M5"   : { "space" : 18, "width" : 19, "minwidth":15 , "cap_width" : 20, "VIA4enclosure" : 1.5, "VIA4encOpposite" : 3,"VIA5enclosure" : 1.5, "VIA5encOpposite" : 3, "capspace" : 16},
+
+
+        "OP"   : { "POenclosure" : 0, "POencOpposite" : 40},
+        "RE"   : { "POenclosure" : 48},
+        "PRES" : { "POenclosure" : 48}
+
+
+    }
+}

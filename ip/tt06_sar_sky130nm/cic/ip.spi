@@ -1,0 +1,6 @@
+
+.subckt tt_um_TT06_SAR_done DONE uio_out<0> uio_oe<0> VPWR VGND
+x3 DONE uio_out<0> VPWR VGND SUNTR_BFX1_CV
+x4 uio_oe<0> VPWR VGND SUNTR_TIEH_CV
+x5 VPWR VGND SUNTR_TAPCELLB_CV
+.ends

@@ -1,0 +1,13 @@
+* Measure TT06_SAR
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+
+meas tran iact  AVG i(VDD) FROM='500n' TO='1u'
+meas tran ioff  AVG i(VDD) FROM='1.1u' TO='2u'
+
+
+echo "MEAS_END"
+.endc
