@@ -1,0 +1,23 @@
+
+iact:
+  src:
+    - iact
+  typ: 50
+  name: Active current
+  desc: ui_in[0] = 1. Clock running
+  min: 30
+  max: 70
+  scale: -1e6
+  digits: 1
+  unit: uA
+ioff:
+  src:
+    - ioff
+  typ: 200
+  name: Off Current
+  desc: ui_in[0] = 0. Clock running
+  min: 10
+  max: 1000
+  scale: -1e9
+  digits: 1
+  unit: nA
