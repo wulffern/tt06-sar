@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1711897241
+timestamp 1712087342
 << metal1 >>
 rect 714 469 1260 499
 rect 0 293 432 323
@@ -9,15 +9,15 @@ rect 0 73 216 103
 rect 378 0 478 352
 rect 774 0 874 352
 use SUNTR_BFX1_CV  x3 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1711839600
+timestamp 1712087342
 transform 1 0 0 0 1 0
 box -90 -66 1350 418
 use SUNTR_TIEH_CV  x4 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1711839600
+timestamp 1712087342
 transform 1 0 0 0 1 352
 box -90 -66 1350 242
 use SUNTR_TAPCELLB_CV  x5 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1711897241
+timestamp 1712087342
 transform 1 0 0 0 1 528
 box -90 -66 1350 242
 use cut_M1M2_2x1  xcut0
