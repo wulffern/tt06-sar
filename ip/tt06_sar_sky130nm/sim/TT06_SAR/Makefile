@@ -13,7 +13,7 @@ OPT=
 
 all:
 	${MAKE} typical etc mc VIEW=Layr OPT=${OPT}
-	${MAKE} typical etc mc VIEW=Lay OPT=${OPT}
+#	${MAKE} typical etc mc VIEW=Lay OPT=${OPT}
 	${MAKE} typical  VIEW=Layr TB=pwrdwn OPT=${OPT}
 	${MAKE} summary
 
