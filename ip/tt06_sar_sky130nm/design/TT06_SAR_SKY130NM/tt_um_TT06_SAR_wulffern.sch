@@ -146,6 +146,18 @@ N 1050 -740 1090 -740 {
 lab=uio_out[0]}
 N 790 -740 830 -740 {
 lab=uio_oe[0]}
+N 230 -520 230 -510 {
+lab=clk}
+N 130 -520 230 -520 {
+lab=clk}
+N 130 -560 380 -560 {
+lab=ena}
+N 380 -560 380 -510 {
+lab=ena}
+N 340 -450 380 -450 {
+lab=VGND}
+N 230 -450 340 -450 {
+lab=VGND}
 C {devices/ipin.sym} 130 -690 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 120 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}

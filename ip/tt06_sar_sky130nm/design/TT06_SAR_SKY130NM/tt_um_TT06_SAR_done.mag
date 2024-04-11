@@ -1,47 +1,56 @@
 magic
 tech sky130A
-timestamp 1712087342
-<< metal1 >>
-rect 714 469 1260 499
-rect 0 293 432 323
-rect 0 73 216 103
-<< metal3 >>
-rect 378 0 478 352
+magscale 1 1
+timestamp 1712786400
+<< checkpaint >>
+rect 0 0 1260 704
+<< m1 >>
+rect 0 73 108 103
+rect 0 293 108 323
+rect 1152 469 1260 499
+rect 0 73 108 103
+rect 102 73 216 103
+rect 54 73 102 103
+rect 102 73 132 103
+rect 0 293 108 323
+rect 318 293 432 323
+rect 54 293 318 323
+rect 318 293 348 323
+rect 1152 469 1260 499
+rect 714 469 828 499
+rect 714 469 1206 499
+rect 714 469 744 499
+<< m3 >>
 rect 774 0 874 352
-use SUNTR_BFX1_CV  x3 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1712087342
+rect 378 0 478 352
+use SUNTR_BFX1_CV x3 ../SUN_TR_SKY130NM
 transform 1 0 0 0 1 0
-box -90 -66 1350 418
-use SUNTR_TIEH_CV  x4 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1712087342
+box 0 0 1260 352
+use SUNTR_TIEH_CV x4 ../SUN_TR_SKY130NM
 transform 1 0 0 0 1 352
-box -90 -66 1350 242
-use SUNTR_TAPCELLB_CV  x5 ~/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
-timestamp 1712087342
+box 0 352 1260 528
+use SUNTR_TAPCELLB_CV x5 ../SUN_TR_SKY130NM
 transform 1 0 0 0 1 528
-box -90 -66 1350 242
-use cut_M1M2_2x1  xcut0
-timestamp 1711839600
+box 0 528 1260 704
+use cut_M1M2_2x1 xcut0 
 transform 1 0 178 0 1 73
-box 0 0 92 34
-use cut_M1M2_2x1  xcut1
-timestamp 1711839600
+box 178 73 270 107
+use cut_M1M2_2x1 xcut1 
 transform 1 0 394 0 1 293
-box 0 0 92 34
-use cut_M1M2_2x1  xcut2
-timestamp 1711839600
+box 394 293 486 327
+use cut_M1M2_2x1 xcut2 
 transform 1 0 790 0 1 469
-box 0 0 92 34
+box 790 469 882 503
 << labels >>
-flabel metal1 s 0 73 108 103 0 FreeSans 200 0 0 0 DONE
+flabel m1 s 0 73 108 103 0 FreeSans 400 0 0 0 DONE
 port 1 nsew signal bidirectional
-flabel metal1 s 0 293 108 323 0 FreeSans 200 0 0 0 uio_out<0>
+flabel m1 s 0 293 108 323 0 FreeSans 400 0 0 0 uio_out<0>
 port 2 nsew signal bidirectional
-flabel metal1 s 1152 469 1260 499 0 FreeSans 200 0 0 0 uio_oe<0>
+flabel m1 s 1152 469 1260 499 0 FreeSans 400 0 0 0 uio_oe<0>
 port 3 nsew signal bidirectional
-flabel metal3 s 774 0 874 352 0 FreeSans 200 0 0 0 VPWR
+flabel m3 s 774 0 874 352 0 FreeSans 400 0 0 0 VPWR
 port 4 nsew signal bidirectional
-flabel metal3 s 378 0 478 352 0 FreeSans 200 0 0 0 VGND
+flabel m3 s 378 0 478 352 0 FreeSans 400 0 0 0 VGND
 port 5 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1260 704

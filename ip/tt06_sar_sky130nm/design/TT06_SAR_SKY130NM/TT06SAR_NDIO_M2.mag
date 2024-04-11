@@ -1,0 +1,50 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1712816535
+<< pwell >>
+rect -183 -183 183 183
+<< psubdiff >>
+rect -147 113 -51 147
+rect 51 113 147 147
+rect -147 51 -113 113
+rect 113 51 147 113
+rect -147 -113 -113 -51
+rect 113 -113 147 -51
+rect -147 -147 -51 -113
+rect 51 -147 147 -113
+<< psubdiffcont >>
+rect -51 113 51 147
+rect -147 -51 -113 51
+rect 113 -51 147 51
+rect -51 -147 51 -113
+<< ndiode >>
+rect -45 33 45 45
+rect -45 -33 -33 33
+rect 33 -33 45 33
+rect -45 -45 45 -33
+<< ndiodec >>
+rect -33 -33 33 33
+<< locali >>
+rect -147 113 -51 147
+rect 51 113 147 147
+rect -147 51 -113 113
+rect 113 51 147 113
+rect -49 -33 -33 33
+rect 33 -33 49 33
+rect -147 -113 -113 -51
+rect 113 -113 147 -51
+rect -147 -147 -51 -113
+rect 51 -147 147 -113
+<< viali >>
+rect -33 -33 33 33
+<< metal1 >>
+rect -45 33 45 39
+rect -45 -33 -33 33
+rect 33 -33 45 33
+rect -45 -39 45 -33
+<< properties >>
+string FIXED_BBOX -130 -130 130 130
+string library sky130
+string parameters w 0.45 l 0.45 area 202.5m peri 1.8 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 doverlap 0 compatible {sky130_fd_pr__diode_pw2nd_05v5 sky130_fd_pr__diode_pw2nd_05v5_lvt  sky130_fd_pr__diode_pw2nd_05v5_nvt sky130_fd_pr__diode_pw2nd_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

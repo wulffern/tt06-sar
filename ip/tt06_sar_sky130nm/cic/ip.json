@@ -14,7 +14,7 @@
             "class" : "cIcCore::LayoutCell",
             "boundaryIgnoreRouting" : 0,
             "meta" : {
-                "noSchematic" : true
+
             },
             "composite" : 1,
             "afterPaint" :{

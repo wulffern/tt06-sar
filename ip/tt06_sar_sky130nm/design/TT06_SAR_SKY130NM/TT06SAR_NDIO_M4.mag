@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1712842337
+<< pwell >>
+rect -183 -183 183 183
+<< psubdiff >>
+rect -147 113 -51 147
+rect 51 113 147 147
+rect -147 51 -113 113
+rect 113 51 147 113
+rect -147 -113 -113 -51
+rect 113 -113 147 -51
+rect -147 -147 -51 -113
+rect 51 -147 147 -113
+<< psubdiffcont >>
+rect -51 113 51 147
+rect -147 -51 -113 51
+rect 113 -51 147 51
+rect -51 -147 51 -113
+<< ndiode >>
+rect -45 33 45 45
+rect -45 -33 -33 33
+rect 33 -33 45 33
+rect -45 -45 45 -33
+<< ndiodec >>
+rect -33 -33 33 33
+<< locali >>
+rect -147 113 -51 147
+rect 51 113 147 147
+rect -147 51 -113 113
+rect 113 51 147 113
+rect -49 -33 -33 33
+rect 33 -33 49 33
+rect -147 -113 -113 -51
+rect 113 -113 147 -51
+rect -147 -147 -51 -113
+rect 51 -147 147 -113
+<< viali >>
+rect -33 -33 33 33
+<< metal1 >>
+rect -56 34 58 48
+rect -56 -34 -36 34
+rect 34 -34 58 34
+rect -56 -52 58 -34
+<< via1 >>
+rect -36 33 34 34
+rect -36 -33 -33 33
+rect -33 -33 33 33
+rect 33 -33 34 33
+rect -36 -34 34 -33
+<< metal2 >>
+rect -56 34 58 48
+rect -56 -34 -36 34
+rect 34 -34 58 34
+rect -56 -52 58 -34
+<< via2 >>
+rect -36 -34 34 34
+<< metal3 >>
+rect -56 34 58 48
+rect -56 -34 -36 34
+rect 34 -34 58 34
+rect -56 -52 58 -34
+<< via3 >>
+rect -36 -34 34 34
+<< metal4 >>
+rect -56 34 58 48
+rect -56 -34 -36 34
+rect 34 -34 58 34
+rect -56 -52 58 -34
+<< properties >>
+string FIXED_BBOX -130 -130 130 130
+<< end >>
