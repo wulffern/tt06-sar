@@ -150,14 +150,18 @@ N 230 -520 230 -510 {
 lab=clk}
 N 130 -520 230 -520 {
 lab=clk}
-N 130 -560 380 -560 {
-lab=ena}
-N 380 -560 380 -510 {
-lab=ena}
-N 340 -450 380 -450 {
+N 940 -160 940 -120 {
 lab=VGND}
-N 230 -450 340 -450 {
+N 940 -250 940 -220 {
+lab=CK_SAMPLE_BSSW}
+N 940 -250 1090 -250 {
+lab=CK_SAMPLE_BSSW}
+N 230 -450 230 -410 {
 lab=VGND}
+N 240 -200 240 -160 {
+lab=VGND}
+N 240 -300 240 -260 {
+lab=#net1}
 C {devices/ipin.sym} 130 -690 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 120 -90 0 0 {name=p2 lab=VGND}
 C {devices/ipin.sym} 130 -240 0 0 {name=p3 lab=ui_in[7:0]}
@@ -252,3 +256,22 @@ C {devices/lab_wire.sym} 830 -740 0 0 {name=p63 sig_type=std_logic lab=uio_oe[0]
 C {devices/lab_wire.sym} 1090 -740 0 0 {name=p64 sig_type=std_logic lab=uio_out[0]}
 C {devices/lab_wire.sym} 930 -700 0 0 {name=p65 sig_type=std_logic lab=VGND
 }
+C {sky130_fd_pr/diode.sym} 940 -190 0 0 {name=D1
+model=diode_pw2nd_05v5
+area=2.025e11
+pj=1.8e6
+}
+C {devices/lab_wire.sym} 940 -120 0 1 {name=p66 sig_type=std_logic lab=VGND}
+C {sky130_fd_pr/diode.sym} 230 -480 0 0 {name=D2
+model=diode_pw2nd_05v5
+area=2.025e11
+pj=1.8e6
+}
+C {devices/lab_wire.sym} 230 -410 0 1 {name=p67 sig_type=std_logic lab=VGND}
+C {sky130_fd_pr/diode.sym} 240 -230 0 0 {name=D3
+model=diode_pw2nd_05v5
+area=2.025e11
+pj=1.8e6
+}
+C {devices/lab_wire.sym} 240 -160 0 1 {name=p68 sig_type=std_logic lab=VGND}
+C {devices/lab_wire.sym} 240 -300 0 1 {name=p69 sig_type=std_logic lab=ui_in[0]}
