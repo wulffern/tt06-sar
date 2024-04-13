@@ -7,6 +7,9 @@ corner:
   Layr: |
 
     .include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lper.spi
+  Laym: |
+
+    .include ../../../work/lpe/tt_um_TT06_SAR_wulffern_lper_lowr.spi
   Sch: |
 
     .include ../../../work/lpe/SUNSAR_SAR8B_CV_lpe.spi

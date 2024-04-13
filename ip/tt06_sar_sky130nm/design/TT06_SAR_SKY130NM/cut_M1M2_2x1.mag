@@ -1,16 +1,20 @@
 magic
 tech sky130A
-magscale 1 1
 timestamp 1712786400
 << checkpaint >>
 rect 0 0 92 34
 << locali >>
-rect 0 0 92 34
-<< m1 >>
-rect 0 0 92 34
+rect 0 31 92 34
+rect 0 3 6 31
+rect 86 3 92 31
+rect 0 0 92 3
 << viali >>
 rect 6 3 86 31
-<< labels >>
+<< metal1 >>
+rect 0 31 92 34
+rect 0 3 6 31
+rect 86 3 92 31
+rect 0 0 92 3
 << properties >>
 string FIXED_BBOX 0 0 92 34
 << end >>

@@ -19,7 +19,7 @@ with open(fname) as fi:
         if(m):
             n = int(int(m.groups()[1])/10)
             ns = str(n)
-            if(re.search(r"(0|5)$",ns)):
+            if(re.search(r"(0)$",ns)):
                 pass
             else:
                 if(cellname not in data):

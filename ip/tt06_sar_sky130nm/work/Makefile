@@ -28,3 +28,7 @@ deliver:
 CELLS = tt_um_TT06_SAR
 
 include ../tech/make/core.make
+
+
+lowres:
+	cd lpe; cat tt_um_TT06_SAR_wulffern_lper.spi |perl -pe 'if(m/^R/ig){unless(m/sky/ig){s/\s[\d\.]+\n/ 0.1\n/ig}};' > tt_um_TT06_SAR_wulffern_lper_lowr.spi

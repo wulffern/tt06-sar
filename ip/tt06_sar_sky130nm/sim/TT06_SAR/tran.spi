@@ -4,7 +4,7 @@
 *-----------------------------------------------------------------
 * OPTIONS
 *-----------------------------------------------------------------
-.option TNOM=27 GMIN=1e-15 reltol=1e-3
+.option TNOM=27 GMIN=1e-15 reltol=1e-4
 
 *-----------------------------------------------------------------
 * PARAMETERS
@@ -88,10 +88,16 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARP)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARN)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARP.t0)
+.save v(xdut.SUNSAR_SAR8B_CV_0.SARN.t0)
+.save v(xdut.SUNSAR_SAR8B_CV_0.SARP.t5)
+.save v(xdut.SUNSAR_SAR8B_CV_0.SARN.t5)
+.save v(xdut.SUNSAR_SAR8B_CV_0.XB2.XA4.GN.t3)
+.save v(xdut.SUNSAR_SAR8B_CV_0.XB2.XA4.GN.t3)
+.save v(xdut.SUNSAR_SAR8B_CV_0.XB1.XA4.GN.)
 .save v(vpwr)
 
 #ifdef Debug
-*.save all
+.save all
 #endif
 
 *----------------------------------------------------------------
@@ -106,7 +112,7 @@ unset askquit
 optran 0 0 0 1n 1u 0
 
 #ifdef Debug
-tran 1n 2u
+tran 1n 1u
 #else
 tran 1n 35u
 #endif
