@@ -19,3 +19,9 @@
 [submodule "ip/cicpy"]
 	path = ip/cicpy
 	url = ssh://git@github.com/wulffern/cicpy
+[submodule "ciccreator"]
+	url = git@github.com:wulffern/ciccreator.git
+[submodule "cicpy"]
+	url = git@github.com:wulffern/cicpy.git
+[submodule "cicspi"]
+	url = git@github.com:wulffern/cicspi.git
