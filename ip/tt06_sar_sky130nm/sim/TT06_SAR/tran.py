@@ -13,6 +13,7 @@ import seaborn as sns
 
 #- Sample clock of ADC
 tsample = 250
+ns = 1e9
 
 
 def paramToStr(data):
@@ -53,6 +54,16 @@ def main(name):
     obj["ENOB"] = float(data["enob"])
     obj["SNDR_FS"]= float(data["sndr"] - data["amp"])
     obj["ENOB_FS"] = float((obj["SNDR_FS"]-1.76)/6.02)
+
+    if("tpd_clkf_doner" in obj and "tpd_doner_clkr" in obj and "tperiod" in obj):
+        #- Extract tsample from measurement
+        tsample = int(obj["tperiod"]*ns)
+
+        cfdr = int(obj["tpd_clkf_doner"]*ns)
+        drcr = int(obj["tpd_doner_clkr"]*ns)
+
+        obj["maxfreq_MHz"] = 1/(cfdr*2)*1000
+
 
 
     #- Hack to get supply since I forgot to print

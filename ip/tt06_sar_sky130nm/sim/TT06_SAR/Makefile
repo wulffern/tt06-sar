@@ -1,6 +1,9 @@
 
+all:
+	${MAKE} typical slow fast mc VIEW=Lay OPT=${OPT}
+	${MAKE} typical VIEW=Lay TB=pwrdwn OPT=${OPT}
+	${MAKE} summary
 
-all: typical etc mc summary
 
 include ../../tech/make/sim.make
 
@@ -11,11 +14,6 @@ CELL=tt_um_TT06_SAR_wulffern
 LIB =TT06_SAR_SKY130NM
 OPT=
 
-all:
-	${MAKE} typical etc mc VIEW=Layr OPT=${OPT}
-#	${MAKE} typical etc mc VIEW=Lay OPT=${OPT}
-	${MAKE} typical  VIEW=Layr TB=pwrdwn OPT=${OPT}
-	${MAKE} summary
 
 test:
 	${MAKE} typical OPT="Debug"
@@ -36,7 +34,7 @@ etc: netlist
 	cicsim run --name ${VIEW}_etc ${TB} ${OPT} ${VIEW} Gt "Kss,Kff,Ksf,Kfs" "Th,Tl" "Vl,Vh"
 
 mc: netlist
-	cicsim run --name ${VIEW}_mc --count 30 ${TB} ${OPT} ${VIEW} Gt "Kttmm" "Tt" "Vt"
+	cicsim run --name ${VIEW}_mc --count 10 ${TB} ${OPT} ${VIEW} Gt "Kttmm" "Tt" "Vt"
 
 ntc: netlist
 	cicsim run --name ${VIEW}_ntc ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt" Vt

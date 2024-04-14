@@ -5,10 +5,12 @@ load {cicname}.raw
 
 echo "MEAS_START"
 
-*meas tran tpd_done trig v(clk) val='0.9' rise=1 targ v(DONE) val='0.9' rise=1
+
+meas tran tpd_clkf_doner trig v(clk) val='0.9' fall=1 td=1u targ v(uio_out[0]) val='0.9' rise=1 td=1u
+meas tran tpd_doner_clkr trig v(uio_out[0]) val='0.9' rise=1  td=1u targ v(clk) val='0.9' rise=2 td=1u
+meas tran tperiod trig v(clk) val='0.9' rise=1  td=1u targ v(clk) val='0.9' rise=2 td=1u
 meas tran iavdd AVG i(VDD) TD='500n'
-*meas tran avdd AVG v(VPWR) TD='500n'
-*meas tran ivref AVG i(VREF) TD='500n'
+
 
 echo "MEAS_END"
 .endc

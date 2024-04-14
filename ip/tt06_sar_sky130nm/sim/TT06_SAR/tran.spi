@@ -93,7 +93,8 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 .save v(xdut.SUNSAR_SAR8B_CV_0.SARN.t5)
 .save v(xdut.SUNSAR_SAR8B_CV_0.XB2.XA4.GN.t3)
 .save v(xdut.SUNSAR_SAR8B_CV_0.XB2.XA4.GN.t3)
-.save v(xdut.SUNSAR_SAR8B_CV_0.XB1.XA4.GN.)
+.save v(xdut.SUNSAR_SAR8B_CV_0.XB1.XA4.GN)
+.save v(xdut.SUNSAR_SAR8B_CV_0.XB2.XA4.GN)
 .save v(vpwr)
 
 #ifdef Debug
