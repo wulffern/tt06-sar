@@ -1,0 +1,829 @@
+** sch_path: /Users/wulff/pro/tt06-sar/ip/tt06_sar_sky130nm/design/TT06_SAR_SKY130NM/tt_um_TT06_SAR_wulffern.sch
+.subckt tt_um_TT06_SAR_wulffern VPWR VGND ui_in[7] ui_in[6] ui_in[5] ui_in[4] ui_in[3] ui_in[2] ui_in[1] ui_in[0]
++ uo_out[7] uo_out[6] uo_out[5] uo_out[4] uo_out[3] uo_out[2] uo_out[1] uo_out[0] uio_in[7] uio_in[6] uio_in[5] uio_in[4] uio_in[3] uio_in[2] uio_in[1] uio_in[0]
++ uio_out[7] uio_out[6] uio_out[5] uio_out[4] uio_out[3] uio_out[2] uio_out[1] uio_out[0] uio_oe[7] uio_oe[6] uio_oe[5] uio_oe[4] uio_oe[3] uio_oe[2] uio_oe[1] uio_oe[0] ua[7] ua[6] ua[5] ua[4] ua[3] ua[2] ua[1] ua[0]
++ ena clk rst_n
+*.ipin VPWR
+*.ipin VGND
+*.ipin ui_in[7] ui_in[6] ui_in[5] ui_in[4] ui_in[3] ui_in[2] ui_in[1] ui_in[0]
+*.opin uo_out[7] uo_out[6] uo_out[5] uo_out[4] uo_out[3] uo_out[2] uo_out[1] uo_out[0]
+*.ipin uio_in[7] uio_in[6] uio_in[5] uio_in[4] uio_in[3] uio_in[2] uio_in[1] uio_in[0]
+*.opin uio_out[7] uio_out[6] uio_out[5] uio_out[4] uio_out[3] uio_out[2] uio_out[1] uio_out[0]
+*.opin uio_oe[7] uio_oe[6] uio_oe[5] uio_oe[4] uio_oe[3] uio_oe[2] uio_oe[1] uio_oe[0]
+*.iopin ua[7] ua[6] ua[5] ua[4] ua[3] ua[2] ua[1] ua[0]
+*.ipin ena
+*.ipin clk
+*.ipin rst_n
+x1 ua[1] ua[0] SARN SARP DONE D<7> D<6> D<5> D<4> D<3> D<2> D<1> D<0> EN CK_SAMPLE CK_SAMPLE_BSSW VPWR VPWR VGND SUNSAR_SAR8B_CV
+x2 clk ui_in[0] CK_SAMPLE CK_SAMPLE_BSSW EN D<7> D<6> D<5> D<4> D<3> D<2> D<1> D<0> uo_out[7] uo_out[6] uo_out[5] uo_out[4]
++ uo_out[3] uo_out[2] uo_out[1] uo_out[0] DONE VPWR VGND TIE_L SUNSAR_CAPT8B_CV
+R1[7] TIE_L2 uio_oe[7] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[6] TIE_L2 uio_oe[6] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[5] TIE_L2 uio_oe[5] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[4] TIE_L2 uio_oe[4] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[3] TIE_L2 uio_oe[3] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[2] TIE_L2 uio_oe[2] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R1[1] TIE_L2 uio_oe[1] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[7] TIE_L1 uio_out[7] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[6] TIE_L1 uio_out[6] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[5] TIE_L1 uio_out[5] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[4] TIE_L1 uio_out[4] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[3] TIE_L1 uio_out[3] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[2] TIE_L1 uio_out[2] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R2[1] TIE_L1 uio_out[1] sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R3 TIE_L TIE_L1 sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+R4 TIE_L TIE_L2 sky130_fd_pr__res_generic_m4 W=0.3 L=0.3 m=1
+XC2[8] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[7] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[6] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[5] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[4] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[3] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[2] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[1] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+XC2[0] VPWR VGND sky130_fd_pr__cap_mim_m3_1 W=18 L=18 MF=1 m=1
+x3 DONE uio_out[0] VPWR VGND SUNTR_BFX1_CV
+x4 uio_oe[0] VPWR VGND SUNTR_TIEH_CV
+x5 VPWR VGND SUNTR_TAPCELLB_CV
+D1 VGND CK_SAMPLE_BSSW sky130_fd_pr__diode_pw2nd_05v5 area=2.025e11 pj=1.8e6
+D2 VGND clk sky130_fd_pr__diode_pw2nd_05v5 area=2.025e11 pj=1.8e6
+D3 VGND ui_in[0] sky130_fd_pr__diode_pw2nd_05v5 area=2.025e11 pj=1.8e6
+.ends
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SAR8B_CV.sym # of pins=19
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SAR8B_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SAR8B_CV.sch
+.subckt SUNSAR_SAR8B_CV SAR_IP SAR_IN SARN SARP DONE D<7> D<6> D<5> D<4> D<3> D<2> D<1> D<0> EN CK_SAMPLE CK_SAMPLE_BSSW VREF AVDD
++ AVSS
+*.iopin SAR_IP
+*.iopin SAR_IN
+*.iopin SARN
+*.iopin SARP
+*.iopin DONE
+*.iopin D<7>
+*.iopin D<6>
+*.iopin D<5>
+*.iopin D<4>
+*.iopin D<3>
+*.iopin D<2>
+*.iopin D<1>
+*.iopin D<0>
+*.iopin EN
+*.iopin CK_SAMPLE
+*.iopin CK_SAMPLE_BSSW
+*.iopin VREF
+*.iopin AVDD
+*.iopin AVSS
+XXB1 SAR_IP CK_SAMPLE_BSSW NCCA CEIN SARP SARN AVDD AVSS SUNSAR_SARBSSW_CV
+XXB2 SAR_IN CK_SAMPLE_BSSW NCCB CEIN SARN SARP AVDD AVSS SUNSAR_SARBSSW_CV
+XXDAC1 CP<9> CP<8> D<6> CP<6> D<5> CP<4> D<4> D<3> D<2> D<1> SARP AVSS SUNSAR_CDAC7_CV
+XXDAC2 D<7> CN<8> CN<7> CN<6> CN<5> CN<4> CN<3> CN<2> CN<1> CN<0> SARN AVSS SUNSAR_CDAC7_CV
+XXA0 CMP_OP CMP_ON EN EN ENO0 DONE0 CP<8> CP<9> CN<8> D<7> CEIN CEO0 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA1 CMP_OP CMP_ON ENO0 EN ENO1 DONE1 CP<6> D<6> CN<6> CN<7> CEO0 CEO1 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA2 CMP_OP CMP_ON ENO1 EN ENO2 DONE2 CP<4> D<5> CN<4> CN<5> CEO1 CEO2 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA3 CMP_OP CMP_ON ENO2 EN ENO3 DONE3 NC2A D<4> CN<3> NC2B CEO2 CEO3 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA4 CMP_OP CMP_ON ENO3 EN ENO4 DONE4 NC3A D<3> CN<2> NC3B CEO3 CEO4 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA5 CMP_OP CMP_ON ENO4 EN ENO5 DONE5 NC4A D<2> CN<1> NC4B CEO4 CEO5 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA6 CMP_OP CMP_ON ENO5 EN ENO6 DONE6 NC5A D<1> CN<0> NC5B CEO5 CEO6 CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA7 CMP_OP CMP_ON ENO6 EN ENO7 DONE NC6A D<0> NC6C NC6B CEO6 CK_CMP CK_SAMPLE VREF AVDD AVSS SUNSAR_SARDIGEX4_CV
+XXA20 SARP SARN CMP_OP CMP_ON CK_CMP CK_SAMPLE DONE AVDD AVSS SUNSAR_SARCMPX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sym # of pins=25
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.sch
+.subckt SUNSAR_CAPT8B_CV CKS ENABLE CK_SAMPLE CK_SAMPLE_BSSW EN D<7> D<6> D<5> D<4> D<3> D<2> D<1> D<0> DO<7> DO<6> DO<5> DO<4>
++ DO<3> DO<2> DO<1> DO<0> DONE AVDD AVSS TIE_L
+*.iopin CKS
+*.iopin ENABLE
+*.iopin CK_SAMPLE
+*.iopin CK_SAMPLE_BSSW
+*.iopin EN
+*.iopin D<7>
+*.iopin D<6>
+*.iopin D<5>
+*.iopin D<4>
+*.iopin D<3>
+*.iopin D<2>
+*.iopin D<1>
+*.iopin D<0>
+*.iopin DO<7>
+*.iopin DO<6>
+*.iopin DO<5>
+*.iopin DO<4>
+*.iopin DO<3>
+*.iopin DO<2>
+*.iopin DO<1>
+*.iopin DO<0>
+*.iopin DONE
+*.iopin AVDD
+*.iopin AVSS
+*.iopin TIE_L
+XXB07 D<7> DONE DO<7> DN7 AVDD AVSS SUNSAR_DFQNX1_CV
+XXC08 D<6> DONE DO<6> DN6 AVDD AVSS SUNSAR_DFQNX1_CV
+XXD09 D<5> DONE DO<5> DN5 AVDD AVSS SUNSAR_DFQNX1_CV
+XXE10 D<4> DONE DO<4> DN4 AVDD AVSS SUNSAR_DFQNX1_CV
+XXF11 D<3> DONE DO<3> DN3 AVDD AVSS SUNSAR_DFQNX1_CV
+XXG12 D<2> DONE DO<2> DN2 AVDD AVSS SUNSAR_DFQNX1_CV
+XXH13 D<1> DONE DO<1> DN1 AVDD AVSS SUNSAR_DFQNX1_CV
+XXI14 D<0> DONE DO<0> DM0 AVDD AVSS SUNSAR_DFQNX1_CV
+XXA1 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA2 ENABLE ENABLE_N AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA3 ENABLE_N ENABLE_B AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA4 CKS CKS_B AVDD AVSS AVDD AVSS SUNSAR_BFX1_CV
+XXA5 CKS_B ENABLE_N CK_SAMPLE AVDD AVSS AVDD AVSS SUNSAR_ORX1_CV
+XXA5a CK_SAMPLE EN AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA6 CKS_B ENABLE_B CK_SAMPLE_BSSW AVDD AVSS AVSS AVDD SUNSAR_ANX1_CV
+XXA7 TIE_L AVDD AVSS AVDD AVSS SUNSAR_TIEL_CV
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_BFX1_CV.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_BFX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_BFX1_CV.sch
+.subckt SUNTR_BFX1_CV A Y AVDD AVSS
+*.ipin A
+*.opin Y
+*.ipin AVDD
+*.ipin AVSS
+XMN0 AVSS A B AVSS SUNTR_NCHDL
+XMN1 Y B AVSS AVSS SUNTR_NCHDL
+XMP0 AVDD A B AVDD SUNTR_PCHDL
+XMP1 Y B AVDD AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_TIEH_CV.sym # of pins=3
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TIEH_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TIEH_CV.sch
+.subckt SUNTR_TIEH_CV Y AVDD AVSS
+*.iopin Y
+*.iopin AVDD
+*.iopin AVSS
+XMN0 A A AVSS AVSS SUNTR_NCHDL
+XMP0 Y A AVDD AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sym # of pins=2
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sch
+.subckt SUNTR_TAPCELLB_CV AVDD AVSS
+*.iopin AVDD
+*.iopin AVSS
+XMN1 AVSS AVSS AVSS AVSS SUNTR_NCHDL
+XMP1 AVDD AVDD AVDD AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARBSSW_CV.sym # of pins=8
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARBSSW_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARBSSW_CV.sch
+.subckt SUNSAR_SARBSSW_CV VI CK CKN TIE_L VO1 VO2 AVDD AVSS
+*.iopin VI
+*.iopin CK
+*.iopin CKN
+*.iopin TIE_L
+*.iopin VO1
+*.iopin VO2
+*.iopin AVDD
+*.iopin AVSS
+XM1 VI GN VO1 AVSS SUNSAR_NCHDLR
+XM2 VI GN VO1 AVSS SUNSAR_NCHDLR
+XM3 VI GN VO1 AVSS SUNSAR_NCHDLR
+XM4 VI GN VO1 AVSS SUNSAR_NCHDLR
+XM5 VI TIE_L VO2 AVSS SUNSAR_NCHDLR
+XM6 VI TIE_L VO2 AVSS SUNSAR_NCHDLR
+XM7 VI TIE_L VO2 AVSS SUNSAR_NCHDLR
+XM8 VI TIE_L VO2 AVSS SUNSAR_NCHDLR
+XXA5b AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA0 CK CKN AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA3 CKN VI VS AVDD AVSS AVDD AVSS SUNSAR_TGPD_CV
+XXA4 CKN GN GNG TIE_H AVDD AVSS AVDD AVSS SUNSAR_SARBSSWCTRL_CV
+XXA1 TIE_H AVDD AVSS AVDD AVSS SUNSAR_TIEH_CV
+XXA7 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA2 TIE_L AVDD AVSS AVDD AVSS SUNSAR_TIEL_CV
+XXA5 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXCAPB1 GNG VS SUNSAR_CAP_BSSW5_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CDAC7_CV.sym # of pins=12
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CDAC7_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CDAC7_CV.sch
+.subckt SUNSAR_CDAC7_CV CP<9> CP<8> CP<7> CP<6> CP<5> CP<4> CP<3> CP<2> CP<1> CP<0> CTOP AVSS
+*.iopin CP<9>
+*.iopin CP<8>
+*.iopin CP<7>
+*.iopin CP<6>
+*.iopin CP<5>
+*.iopin CP<4>
+*.iopin CP<3>
+*.iopin CP<2>
+*.iopin CP<1>
+*.iopin CP<0>
+*.iopin CTOP
+*.iopin AVSS
+XXC1 CP<8> CP<8> CP<8> CP<8> CP<8> CP<8> CTOP AVSS SUNSAR_CAP32C_CV
+XXC32a<0> AVSS CP<0> CP<1> CP<2> CP<3> CP<7> CTOP AVSS SUNSAR_CAP32C_CV
+XX16ab CP<5> CP<5> CP<5> CP<5> CP<4> CP<6> CTOP AVSS SUNSAR_CAP32C_CV
+XXC0 CP<9> CP<9> CP<9> CP<9> CP<9> CP<9> CTOP AVSS SUNSAR_CAP32C_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARDIGEX4_CV.sym # of pins=16
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARDIGEX4_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARDIGEX4_CV.sch
+.subckt SUNSAR_SARDIGEX4_CV CMP_OP CMP_ON EN RST_N ENO DONE CP0 CP1 CN0 CN1 CEIN CEO CKS VREF AVDD AVSS
+*.iopin CMP_OP
+*.iopin CMP_ON
+*.iopin EN
+*.iopin RST_N
+*.iopin ENO
+*.iopin DONE
+*.iopin CP0
+*.iopin CP1
+*.iopin CN0
+*.iopin CN1
+*.iopin CEIN
+*.iopin CEO
+*.iopin CKS
+*.iopin VREF
+*.iopin AVDD
+*.iopin AVSS
+XXA1 CMP_OP CMP_ON EN RST_N ENO CHL_OP CHL_ON AVDD AVSS SUNSAR_SARMRYX1_CV
+XXA2 CHL_ON CN1 VREF AVSS AVDD AVSS SUNSAR_SWX4_CV
+XXA3 CN1 CP1 VREF AVSS AVDD AVSS SUNSAR_SWX4_CV
+XXA4 CHL_OP CP0 VREF AVSS AVDD AVSS SUNSAR_SWX4_CV
+XXA5 CP0 CN0 VREF AVSS AVDD AVSS SUNSAR_SWX4_CV
+XXA6 CN0 CP1 CE CKS AVDD AVSS AVDD AVSS SUNSAR_SARCEX1_CV
+XXA7 ENO ENO_N AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA8 ENO_N DONE AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA9 ENO_N CE CE1 AVDD AVSS AVDD AVSS SUNSAR_NDX1_CV
+XXA10 CE1 CE1_N AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA11 CE1_N CEIN CEO1 AVDD AVSS AVDD AVSS SUNSAR_NRX1_CV
+XXA12 CEO1 CEO AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA13 AVDD AVSS SUNSAR_TAPCELLB_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX1_CV.sym # of pins=9
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX1_CV.sch
+.subckt SUNSAR_SARCMPX1_CV CPI CNI CPO CNO CK_CMP CK_SAMPLE DONE AVDD AVSS
+*.iopin CPI
+*.iopin CNI
+*.iopin CPO
+*.iopin CNO
+*.iopin CK_CMP
+*.iopin CK_SAMPLE
+*.iopin DONE
+*.iopin AVDD
+*.iopin AVSS
+XXA0 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA1 CPI CK_B CK_N AVDD AVSS AVDD AVSS SUNSAR_SARKICKHX1_CV
+XXA2 CPI CK_B CNO_I CPO_I N1 NC1 AVDD AVSS AVDD AVSS SUNSAR_SARCMPHX1_CV
+XXA2a CPO_I CPO AVDD AVSS AVDD AVSS SUNSAR_IVX4_CV
+XXA3a CNO_I CNO AVDD AVSS AVDD AVSS SUNSAR_IVX4_CV
+XXA3 CNI CK_B CPO_I CNO_I N1 NC2 AVDD AVSS AVDD AVSS SUNSAR_SARCMPHX1_CV
+XXA4 CNI CK_B CK_N AVDD AVSS AVDD AVSS SUNSAR_SARKICKHX1_CV
+XXA9 CK_N CK_B AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA10 DONE_N CK_A CK_N AVDD AVSS AVDD AVSS SUNSAR_NDX1_CV
+XXA11 CK_SAMPLE DONE DONE_N AVDD AVSS AVDD AVSS SUNSAR_NRX1_CV
+XXA12 CK_CMP CK_A AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA13 AVDD AVSS SUNSAR_TAPCELLB_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_DFQNX1_CV.sym # of pins=6
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_DFQNX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_DFQNX1_CV.sch
+.subckt SUNSAR_DFQNX1_CV D CK Q QN AVDD AVSS
+*.iopin D
+*.iopin CK
+*.iopin Q
+*.iopin QN
+*.iopin AVDD
+*.iopin AVSS
+XXA0 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA1 CK CKN AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA2 CKN CKB AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA3 D CKN CKB A0 AVDD AVSS AVDD AVSS SUNSAR_IVTRIX1_CV
+XXA4 A1 CKB CKN A0 AVDD AVSS AVDD AVSS SUNSAR_IVTRIX1_CV
+XXA5 A0 A1 AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA6 A1 CKB CKN QN AVDD AVSS AVDD AVSS SUNSAR_IVTRIX1_CV
+XXA7 Q CKN CKB QN AVDD AVSS AVDD AVSS SUNSAR_IVTRIX1_CV
+XXA8 QN Q AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_TAPCELLB_CV.sym # of pins=2
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TAPCELLB_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TAPCELLB_CV.sch
+.subckt SUNSAR_TAPCELLB_CV AVDD AVSS
+*.iopin AVDD
+*.iopin AVSS
+XMN1 AVSS AVSS AVSS AVSS SUNSAR_NCHDL
+XMP1 AVDD AVDD AVDD AVDD SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_IVX1_CV.sym # of pins=6
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVX1_CV.sch
+.subckt SUNSAR_IVX1_CV A Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 Y A AVSS BULKN SUNSAR_NCHDL
+XMP0 Y A AVDD BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_BFX1_CV.sym # of pins=6
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_BFX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_BFX1_CV.sch
+.subckt SUNSAR_BFX1_CV A Y BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin Y
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 AVSS A B BULKN SUNSAR_NCHDL
+XMN1 Y B AVSS BULKN SUNSAR_NCHDL
+XMP0 AVDD A B BULKP SUNSAR_PCHDL
+XMP1 Y B AVDD BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_ORX1_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_ORX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_ORX1_CV.sch
+.subckt SUNSAR_ORX1_CV A B Y BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin B
+*.iopin Y
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XXA1 A B YN BULKP BULKN AVDD AVSS SUNSAR_NRX1_CV
+XXA2 YN Y BULKP BULKN AVDD AVSS SUNSAR_IVX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_ANX1_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_ANX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_ANX1_CV.sch
+.subckt SUNSAR_ANX1_CV A B Y BULKP BULKN AVSS AVDD
+*.iopin A
+*.iopin B
+*.iopin Y
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XXA1 A B YN BULKP BULKN AVDD AVSS SUNSAR_NDX1_CV
+XXA2 YN Y BULKP BULKN AVDD AVSS SUNSAR_IVX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sym # of pins=5
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sch
+.subckt SUNSAR_TIEL_CV Y BULKP BULKN AVDD AVSS
+*.iopin Y
+*.ipin BULKP
+*.ipin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 Y A AVSS BULKN SUNSAR_NCHDL
+XMP0 A A AVDD BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDL.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDL.sch
+.subckt SUNTR_NCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_PCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDL.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDL.sch
+.subckt SUNTR_PCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__pfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_NCHDLR.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NCHDLR.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NCHDLR.sch
+.subckt SUNSAR_NCHDLR D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_TGPD_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TGPD_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TGPD_CV.sch
+.subckt SUNSAR_TGPD_CV C A B BULKP BULKN AVDD AVSS
+*.iopin C
+*.iopin A
+*.iopin B
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 AVSS C CN BULKN SUNSAR_NCHDL
+XMN1 B C AVSS BULKN SUNSAR_NCHDL
+XMN2 A CN B BULKN SUNSAR_NCHDL
+XMP0 AVDD C CN BULKP SUNSAR_PCHDL
+XMP1_DMY B AVDD AVDD BULKP SUNSAR_PCHDL
+XMP2 A C B BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARBSSWCTRL_CV.sym # of pins=8
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARBSSWCTRL_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARBSSWCTRL_CV.sch
+.subckt SUNSAR_SARBSSWCTRL_CV C GN GNG TIE_H BULKP BULKN AVDD AVSS
+*.iopin C
+*.iopin GN
+*.iopin GNG
+*.iopin TIE_H
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 C AVSS BULKN SUNSAR_NCHDL
+XMN1 GN TIE_H N1 BULKN SUNSAR_NCHDL
+XMP0 GNG C GN BULKP SUNSAR_PCHDL
+XMP1 AVDD GN GNG BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_TIEH_CV.sym # of pins=5
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TIEH_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_TIEH_CV.sch
+.subckt SUNSAR_TIEH_CV Y BULKP BULKN AVDD AVSS
+*.iopin Y
+*.ipin BULKP
+*.ipin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 A A AVSS BULKN SUNSAR_NCHDL
+XMP0 Y A AVDD BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.sym # of pins=2
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.sch
+.subckt SUNSAR_CAP_BSSW5_CV A B
+*.iopin A
+*.iopin B
+XXCAPB0 A B SUNSAR_CAP_BSSW_CV
+XXCAPB1 A B SUNSAR_CAP_BSSW_CV
+XXCAPB2 A B SUNSAR_CAP_BSSW_CV
+XXCAPB3 A B SUNSAR_CAP_BSSW_CV
+XXCAPB4 A B SUNSAR_CAP_BSSW_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CAP32C_CV.sym # of pins=8
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP32C_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP32C_CV.sch
+.subckt SUNSAR_CAP32C_CV C1A C1B C2 C4 C8 C16 CTOP AVSS
+*.iopin C1A
+*.iopin C1B
+*.iopin C2
+*.iopin C4
+*.iopin C8
+*.iopin C16
+*.iopin CTOP
+*.iopin AVSS
+XXRES1A C1A NC1 SUNSAR_RM1
+XXRES1B C1B NC2 SUNSAR_RM1
+XXRES2 C2 NC3 SUNSAR_RM1
+XXRES4 C4 NC4 SUNSAR_RM1
+XXRES8 C8 NC5 SUNSAR_RM1
+XXRES16 C16 NC6 SUNSAR_RM1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARMRYX1_CV.sym # of pins=9
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARMRYX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARMRYX1_CV.sch
+.subckt SUNSAR_SARMRYX1_CV CMP_OP CMP_ON EN RST_N ENO CHL_OP CHL_ON AVDD AVSS
+*.iopin CMP_OP
+*.iopin CMP_ON
+*.iopin EN
+*.iopin RST_N
+*.iopin ENO
+*.iopin CHL_OP
+*.iopin CHL_ON
+*.iopin AVDD
+*.iopin AVSS
+XXA0 AVDD AVSS SUNSAR_TAPCELLB_CV
+XXA1 CMP_OP CMP_ON EN ENO RST_N AVDD AVSS AVDD AVSS SUNSAR_SAREMX1_CV
+XXA2 ENO LCK_N AVDD AVSS AVDD AVSS SUNSAR_IVX1_CV
+XXA4 CMP_OP CHL_OP RST_N EN LCK_N AVDD AVSS AVDD AVSS SUNSAR_SARLTX1_CV
+XXA5 CMP_ON CHL_ON RST_N EN LCK_N AVDD AVSS AVDD AVSS SUNSAR_SARLTX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SWX4_CV.sym # of pins=6
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SWX4_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SWX4_CV.sch
+.subckt SUNSAR_SWX4_CV A Y VREF AVSS BULKP BULKN
+*.ipin A
+*.opin Y
+*.ipin VREF
+*.ipin AVSS
+*.ipin BULKP
+*.ipin BULKN
+XMN0 Y A AVSS BULKN SUNSAR_NCHDL
+XMN1 AVSS A Y BULKN SUNSAR_NCHDL
+XMN2 Y A AVSS BULKN SUNSAR_NCHDL
+XMN3 AVSS A Y BULKN SUNSAR_NCHDL
+XMP0 Y A VREF BULKP SUNSAR_PCHDL
+XMP1 VREF A Y BULKP SUNSAR_PCHDL
+XMP2 Y A VREF BULKP SUNSAR_PCHDL
+XMP3 VREF A Y BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARCEX1_CV.sym # of pins=8
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCEX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCEX1_CV.sch
+.subckt SUNSAR_SARCEX1_CV A B Y RST BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin B
+*.iopin Y
+*.iopin RST
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N4 RST AVSS BULKN SUNSAR_NCHDL
+XMN1 AVSS RST N4 BULKN SUNSAR_NCHDL
+XMN2 N1 RST AVSS BULKN SUNSAR_NCHDL
+XMN3 Y RST N1 BULKN SUNSAR_NCHDL
+XMP0 N2 A Y BULKP SUNSAR_PCHDL
+XMP1 AVDD A N2 BULKP SUNSAR_PCHDL
+XMP2 N3 B AVDD BULKP SUNSAR_PCHDL
+XMP3 Y B N3 BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_NDX1_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NDX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NDX1_CV.sch
+.subckt SUNSAR_NDX1_CV A B Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.ipin B
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 N1 A AVSS BULKN SUNSAR_NCHDL
+XMN1 Y B N1 BULKN SUNSAR_NCHDL
+XMP0 Y A AVDD BULKP SUNSAR_PCHDL
+XMP1 AVDD B Y BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_NRX1_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NRX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NRX1_CV.sch
+.subckt SUNSAR_NRX1_CV A B Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.ipin B
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 Y A AVSS BULKN SUNSAR_NCHDL
+XMN1 AVSS B Y BULKN SUNSAR_NCHDL
+XMP0 N1 A AVDD BULKP SUNSAR_PCHDL
+XMP1 Y B N1 BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARKICKHX1_CV.sym # of pins=7
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARKICKHX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARKICKHX1_CV.sch
+.subckt SUNSAR_SARKICKHX1_CV CI CK CKN BULKP BULKN AVDD AVSS
+*.iopin CI
+*.iopin CK
+*.iopin CKN
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 CKN AVSS BULKN SUNSAR_NCHDL
+XMN1 N1 CI N1 BULKN SUNSAR_NCHDL
+XMN2 N1 CI N1 BULKN SUNSAR_NCHDL
+XMN3 N1 CI N1 BULKN SUNSAR_NCHDL
+XMN4 N1 CI N1 BULKN SUNSAR_NCHDL
+XMN5 N1 CI N1 BULKN SUNSAR_NCHDL
+XMN6 AVDD CK N1 BULKN SUNSAR_NCHDL
+XMP0 AVDD CKN N1 BULKP SUNSAR_PCHDL
+XMP1_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+XMP2_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+XMP3_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+XMP4_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+XMP5_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+XMP6_DMY AVDD AVDD AVDD BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARCMPHX1_CV.sym # of pins=10
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCMPHX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARCMPHX1_CV.sch
+.subckt SUNSAR_SARCMPHX1_CV CI CK CO VMR N1 N2 BULKP BULKN AVDD AVSS
+*.iopin CI
+*.iopin CK
+*.iopin CO
+*.iopin VMR
+*.iopin N1
+*.iopin N2
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 CK AVSS BULKN SUNSAR_NCHDL
+XMN1 N2 CI N1 BULKN SUNSAR_NCHDL
+XMN2 N1 CI N2 BULKN SUNSAR_NCHDL
+XMN3 N2 CI N1 BULKN SUNSAR_NCHDL
+XMN4 N1 CI N2 BULKN SUNSAR_NCHDL
+XMN5 N2 CI N1 BULKN SUNSAR_NCHDL
+XMN6 CO VMR N2 BULKN SUNSAR_NCHDL
+XMP0 AVDD CK N1 BULKP SUNSAR_PCHDL
+XMP1 N2 CK AVDD BULKP SUNSAR_PCHDL
+XMP2 AVDD AVDD N2 BULKP SUNSAR_PCHDL
+XMP3 CO CK AVDD BULKP SUNSAR_PCHDL
+XMP4 AVDD VMR CO BULKP SUNSAR_PCHDL
+XMP5 CO VMR AVDD BULKP SUNSAR_PCHDL
+XMP6 AVDD VMR CO BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_IVX4_CV.sym # of pins=6
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVX4_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVX4_CV.sch
+.subckt SUNSAR_IVX4_CV A Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 Y A AVSS BULKN SUNSAR_NCHDL
+XMN1 AVSS A Y BULKN SUNSAR_NCHDL
+XMN2 Y A AVSS BULKN SUNSAR_NCHDL
+XMN3 AVSS A Y BULKN SUNSAR_NCHDL
+XMP0 Y A AVDD BULKP SUNSAR_PCHDL
+XMP1 AVDD A Y BULKP SUNSAR_PCHDL
+XMP2 Y A AVDD BULKP SUNSAR_PCHDL
+XMP3 AVDD A Y BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_IVTRIX1_CV.sym # of pins=8
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVTRIX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_IVTRIX1_CV.sch
+.subckt SUNSAR_IVTRIX1_CV A C CN Y BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin C
+*.iopin CN
+*.iopin Y
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 A AVSS BULKN SUNSAR_NCHDL
+XMN1 Y C N1 BULKN SUNSAR_NCHDL
+XMP0 N2 A AVDD BULKP SUNSAR_PCHDL
+XMP1 Y CN N2 BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_NCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NCHDL.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_NCHDL.sch
+.subckt SUNSAR_NCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_PCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_PCHDL.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_PCHDL.sch
+.subckt SUNSAR_PCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__pfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym # of pins=2
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sch
+.subckt SUNSAR_CAP_BSSW_CV A B
+*.iopin A
+*.iopin B
+R1 A NC0 sky130_fd_pr__res_generic_m3 W=0.4 L=0.36 m=1
+R2 B NC1 sky130_fd_pr__res_generic_m3 W=0.4 L=0.36 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_RM1.sym # of pins=2
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_RM1.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_RM1.sch
+.subckt SUNSAR_RM1 A B
+*.iopin A
+*.iopin B
+R1 A B sky130_fd_pr__res_generic_l1 W=0.34 L=0.34 m=1
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SAREMX1_CV.sym # of pins=9
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SAREMX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SAREMX1_CV.sch
+.subckt SUNSAR_SAREMX1_CV A B EN ENO RST_N BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin B
+*.iopin EN
+*.iopin ENO
+*.iopin RST_N
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N3 EN AM BULKN SUNSAR_NCHDL
+XMN1 N3 B AVSS BULKN SUNSAR_NCHDL
+XMN2 AVSS A N3 BULKN SUNSAR_NCHDL
+XMN3 ENO AM AVSS BULKN SUNSAR_NCHDL
+XMP0 AVDD RST_N AM BULKP SUNSAR_PCHDL
+XMP1 N2 B ENO BULKP SUNSAR_PCHDL
+XMP2 N1 A N2 BULKP SUNSAR_PCHDL
+XMP3 AVDD AM N1 BULKP SUNSAR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_SARLTX1_CV.sym # of pins=9
+** sym_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARLTX1_CV.sym
+** sch_path: /Users/wulff/data/2024/tt06-sar/ip/tt06_sar_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_SARLTX1_CV.sch
+.subckt SUNSAR_SARLTX1_CV A CHL RST_N EN LCK_N BULKP BULKN AVDD AVSS
+*.iopin A
+*.iopin CHL
+*.iopin RST_N
+*.iopin EN
+*.iopin LCK_N
+*.iopin BULKP
+*.iopin BULKN
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 A AVSS BULKN SUNSAR_NCHDL
+XMN1 N3 LCK_N N1 BULKN SUNSAR_NCHDL
+XMN2 CHL EN N3 BULKN SUNSAR_NCHDL
+XMP0 NP2 RST_N AVDD BULKP SUNSAR_PCHDL
+XMP1 NP1 RST_N NP2 BULKP SUNSAR_PCHDL
+XMP2 CHL RST_N NP1 BULKP SUNSAR_PCHDL
+.ends
+
+.end

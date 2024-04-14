@@ -22,7 +22,13 @@ CICEXCLUDE="^(${PREFIX}SUNTR_)"
 
 DATE = $(shell date "+%Y-%m-%d_%H%M")
 deliver:
-	cp ../../../gds/tt_um_TT06_SAR_wulffern.gds ../../../gds/${DATE}_tt_um_TT06_SAR_wulffern.gds
+	cp ../../../gds/${CELL}.gds ../../../gds/${DATE}_${CELL}.gds
+	cp ant/${CELL}_ant.log ../../../reports/ant.log
+	cp drc/${CELL}_drc.log ../../../reports/drc.log
+	cp lvs/${CELL}_lvs.log ../../../reports/lvs.log
+	cp lpe/${CELL}_lpe.spi ../../../spi
+	cp xsch/${CELL}.spice ../../../spi
+	cp lpe/${CELL}_lvs.log ../../../reports/lpe_lvs.log
 	magic -noconsole -dnull deliver.tcl
 
 #- Provide cells you want to check for the lvsall drcall commands
@@ -32,4 +38,4 @@ include ../tech/make/core.make
 
 
 lowres:
-	cd lpe; cat tt_um_TT06_SAR_wulffern_lper.spi |perl -pe 'if(m/^R/ig){unless(m/sky/ig){s/\s[\d\.]+\n/ 0.1\n/ig}};' > tt_um_TT06_SAR_wulffern_lper_lowr.spi
+	cd lpe; cat ${CELL}_lper.spi |perl -pe 'if(m/^R/ig){unless(m/sky/ig){s/\s[\d\.]+\n/ 0.1\n/ig}};' > ${CELL}_lper_lowr.spi

@@ -1,0 +1,254 @@
+
+Magic 8.3 revision 473 - Compiled on Fri Apr 12 14:38:31 CEST 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+(Magic) SigWatchFile2: Invalid argument
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "ant/tt_um_TT06_SAR_wulffern_ant.tcl" from command line.
+File <../design/TT06_SAR_SKY130NM/tt_um_TT06_SAR_wulffern.mag> is already locked by pid 32074.  Opening read-only.
+Cell tt_um_TT06_SAR_wulffern read from path ../design/TT06_SAR_SKY130NM
+File <../design/TT06_SAR_SKY130NM/tt_um_TT06_SAR_done.mag> is already locked by pid 32074.  Opening read-only.
+Cell tt_um_TT06_SAR_done read from path ../design/TT06_SAR_SKY130NM
+Scaled magic input cell tt_um_TT06_SAR_done geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/cut_M1M2_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell cut_M1M2_2x1 read from path ../design/TT06_SAR_SKY130NM
+Scaled magic input cell cut_M1M2_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_TAPCELLB_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_TAPCELLB_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_cut_M1M4_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_cut_M1M4_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_cut_M1M4_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_PCHDL.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_PCHDL read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_PCHDL geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_NCHDL.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_NCHDL read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_NCHDL geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_TIEH_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_TIEH_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_TIEH_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM/SUNTR_BFX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNTR_BFX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_TR_SKY130NM
+Scaled magic input cell SUNTR_BFX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/TT06SAR_NDIO.mag> is already locked by pid 32074.  Opening read-only.
+Cell TT06SAR_NDIO read from path ../design/TT06_SAR_SKY130NM
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SAR8B_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SAR8B_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_CDAC7_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_CDAC7_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_CDAC7_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M2M3_1x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M2M3_1x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M2M3_1x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M1M3_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M1M3_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M1M3_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_CAP32C_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_CAP32C_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_CAP32C_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_RM1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_RM1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_RM1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M1M4_1x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M1M4_1x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M1M4_1x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M2M4_1x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M2M4_1x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M2M4_1x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M1M4_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M1M4_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M1M4_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M4M5_1x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M4M5_1x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M4M5_1x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M1M2_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M1M2_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M1M2_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M2M4_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M2M4_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M2M4_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M2M3_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M2M3_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M2M3_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M2M4_2x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M2M4_2x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M2M4_2x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M3M4_1x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M3M4_1x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M3M4_1x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M4M5_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M4M5_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M4M5_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M3M4_2x1.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M3M4_2x1 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M3M4_2x1 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARBSSW_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARBSSW_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_CAP_BSSW5_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_CAP_BSSW5_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_CAP_BSSW_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_CAP_BSSW_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_TAPCELLB_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_TAPCELLB_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_TAPCELLB_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_PCHDL.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_PCHDL read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_PCHDL geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_NCHDL.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_NCHDL read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_NCHDL geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARBSSWCTRL_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARBSSWCTRL_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARBSSWCTRL_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_TGPD_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_TGPD_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_TGPD_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_TIEL_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_TIEL_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_TIEH_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_TIEH_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_TIEH_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_IVX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_IVX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_IVX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_NCHDLR.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_NCHDLR read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_NCHDLR geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARCMPX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARCMPX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_NRX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_NRX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_NRX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_NDX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_NDX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_NDX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARKICKHX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARKICKHX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARKICKHX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_IVX4_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_IVX4_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_IVX4_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARCMPHX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARCMPHX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARCMPHX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARDIGEX4_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARDIGEX4_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARCEX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARCEX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARCEX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SWX4_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SWX4_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SWX4_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M3M4_2x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M3M4_2x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M3M4_2x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARMRYX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARMRYX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARMRYX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SARLTX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SARLTX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SARLTX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_SAREMX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_SAREMX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_SAREMX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_CAPT8B_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_CAPT8B_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_DFQNX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_DFQNX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_DFQNX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_IVTRIX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_IVTRIX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_IVTRIX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_cut_M1M4_2x2.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_cut_M1M4_2x2 read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_cut_M1M4_2x2 geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_ANX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_ANX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_ANX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_ORX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_ORX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_ORX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM/SUNSAR_BFX1_CV.mag> is already locked by pid 32074.  Opening read-only.
+Cell SUNSAR_BFX1_CV read from path ../design/TT06_SAR_SKY130NM/../SUN_SAR9B_SKY130NM
+Scaled magic input cell SUNSAR_BFX1_CV geometry by factor of 2
+File <../design/TT06_SAR_SKY130NM/sky130_fd_pr__cap_mim_m3_1_XS736D.mag> is already locked by pid 32074.  Opening read-only.
+Cell sky130_fd_pr__cap_mim_m3_1_XS736D read from path ../design/TT06_SAR_SKY130NM
+Extracting cut_M1M2_2x1 into ant/ext/cut_M1M2_2x1.ext:
+Extracting SUNTR_cut_M1M4_2x1 into ant/ext/SUNTR_cut_M1M4_2x1.ext:
+Extracting SUNTR_PCHDL into ant/ext/SUNTR_PCHDL.ext:
+Extracting SUNTR_NCHDL into ant/ext/SUNTR_NCHDL.ext:
+Extracting SUNTR_TAPCELLB_CV into ant/ext/SUNTR_TAPCELLB_CV.ext:
+Extracting SUNTR_TIEH_CV into ant/ext/SUNTR_TIEH_CV.ext:
+Extracting SUNTR_BFX1_CV into ant/ext/SUNTR_BFX1_CV.ext:
+Extracting tt_um_TT06_SAR_done into ant/ext/tt_um_TT06_SAR_done.ext:
+Extracting TT06SAR_NDIO into ant/ext/TT06SAR_NDIO.ext:
+Extracting SUNSAR_cut_M2M3_1x2 into ant/ext/SUNSAR_cut_M2M3_1x2.ext:
+Extracting SUNSAR_cut_M1M3_2x1 into ant/ext/SUNSAR_cut_M1M3_2x1.ext:
+Extracting SUNSAR_RM1 into ant/ext/SUNSAR_RM1.ext:
+Extracting SUNSAR_cut_M1M4_1x2 into ant/ext/SUNSAR_cut_M1M4_1x2.ext:
+Extracting SUNSAR_cut_M2M4_1x2 into ant/ext/SUNSAR_cut_M2M4_1x2.ext:
+Extracting SUNSAR_CAP32C_CV into ant/ext/SUNSAR_CAP32C_CV.ext:
+Extracting SUNSAR_CDAC7_CV into ant/ext/SUNSAR_CDAC7_CV.ext:
+Extracting SUNSAR_cut_M1M4_2x1 into ant/ext/SUNSAR_cut_M1M4_2x1.ext:
+Extracting SUNSAR_cut_M4M5_1x2 into ant/ext/SUNSAR_cut_M4M5_1x2.ext:
+Extracting SUNSAR_cut_M1M2_2x1 into ant/ext/SUNSAR_cut_M1M2_2x1.ext:
+Extracting SUNSAR_cut_M2M4_2x1 into ant/ext/SUNSAR_cut_M2M4_2x1.ext:
+Extracting SUNSAR_cut_M2M3_2x1 into ant/ext/SUNSAR_cut_M2M3_2x1.ext:
+Extracting SUNSAR_cut_M2M4_2x2 into ant/ext/SUNSAR_cut_M2M4_2x2.ext:
+Extracting SUNSAR_cut_M3M4_1x2 into ant/ext/SUNSAR_cut_M3M4_1x2.ext:
+Extracting SUNSAR_cut_M4M5_2x1 into ant/ext/SUNSAR_cut_M4M5_2x1.ext:
+Extracting SUNSAR_cut_M3M4_2x1 into ant/ext/SUNSAR_cut_M3M4_2x1.ext:
+Extracting SUNSAR_CAP_BSSW_CV into ant/ext/SUNSAR_CAP_BSSW_CV.ext:
+Extracting SUNSAR_CAP_BSSW5_CV into ant/ext/SUNSAR_CAP_BSSW5_CV.ext:
+Extracting SUNSAR_PCHDL into ant/ext/SUNSAR_PCHDL.ext:
+Extracting SUNSAR_NCHDL into ant/ext/SUNSAR_NCHDL.ext:
+Extracting SUNSAR_TAPCELLB_CV into ant/ext/SUNSAR_TAPCELLB_CV.ext:
+Extracting SUNSAR_SARBSSWCTRL_CV into ant/ext/SUNSAR_SARBSSWCTRL_CV.ext:
+Extracting SUNSAR_TGPD_CV into ant/ext/SUNSAR_TGPD_CV.ext:
+Extracting SUNSAR_TIEL_CV into ant/ext/SUNSAR_TIEL_CV.ext:
+Extracting SUNSAR_TIEH_CV into ant/ext/SUNSAR_TIEH_CV.ext:
+Extracting SUNSAR_IVX1_CV into ant/ext/SUNSAR_IVX1_CV.ext:
+Extracting SUNSAR_NCHDLR into ant/ext/SUNSAR_NCHDLR.ext:
+Extracting SUNSAR_SARBSSW_CV into ant/ext/SUNSAR_SARBSSW_CV.ext:
+Extracting SUNSAR_NRX1_CV into ant/ext/SUNSAR_NRX1_CV.ext:
+Extracting SUNSAR_NDX1_CV into ant/ext/SUNSAR_NDX1_CV.ext:
+Extracting SUNSAR_SARKICKHX1_CV into ant/ext/SUNSAR_SARKICKHX1_CV.ext:
+Extracting SUNSAR_IVX4_CV into ant/ext/SUNSAR_IVX4_CV.ext:
+Extracting SUNSAR_SARCMPHX1_CV into ant/ext/SUNSAR_SARCMPHX1_CV.ext:
+Extracting SUNSAR_SARCMPX1_CV into ant/ext/SUNSAR_SARCMPX1_CV.ext:
+Extracting SUNSAR_SARCEX1_CV into ant/ext/SUNSAR_SARCEX1_CV.ext:
+Extracting SUNSAR_cut_M3M4_2x2 into ant/ext/SUNSAR_cut_M3M4_2x2.ext:
+Extracting SUNSAR_SWX4_CV into ant/ext/SUNSAR_SWX4_CV.ext:
+Extracting SUNSAR_SARLTX1_CV into ant/ext/SUNSAR_SARLTX1_CV.ext:
+Extracting SUNSAR_SAREMX1_CV into ant/ext/SUNSAR_SAREMX1_CV.ext:
+Extracting SUNSAR_SARMRYX1_CV into ant/ext/SUNSAR_SARMRYX1_CV.ext:
+Extracting SUNSAR_SARDIGEX4_CV into ant/ext/SUNSAR_SARDIGEX4_CV.ext:
+Extracting SUNSAR_SAR8B_CV into ant/ext/SUNSAR_SAR8B_CV.ext:
+Extracting SUNSAR_IVTRIX1_CV into ant/ext/SUNSAR_IVTRIX1_CV.ext:
+Extracting SUNSAR_DFQNX1_CV into ant/ext/SUNSAR_DFQNX1_CV.ext:
+Extracting SUNSAR_cut_M1M4_2x2 into ant/ext/SUNSAR_cut_M1M4_2x2.ext:
+Extracting SUNSAR_ANX1_CV into ant/ext/SUNSAR_ANX1_CV.ext:
+Extracting SUNSAR_ORX1_CV into ant/ext/SUNSAR_ORX1_CV.ext:
+Extracting SUNSAR_BFX1_CV into ant/ext/SUNSAR_BFX1_CV.ext:
+Extracting SUNSAR_CAPT8B_CV into ant/ext/SUNSAR_CAPT8B_CV.ext:
+Extracting sky130_fd_pr__cap_mim_m3_1_XS736D into ant/ext/sky130_fd_pr__cap_mim_m3_1_XS736D.ext:
+Extracting tt_um_TT06_SAR_wulffern into ant/ext/tt_um_TT06_SAR_wulffern.ext:
+Reading extract file.
+Building flattened netlist.
+Running antenna checks.
+   100 gates analyzed.
+   200 gates analyzed.
+antennacheck finished.

@@ -1,0 +1,1481 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Cell SUNSAR_PCHDL (0) disconnected node: a_216_n18#
+Cell SUNSAR_PCHDL (0) disconnected node: a_216_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_PCHDL                    |Circuit 2: SUNSAR_PCHDL                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_PCHDL                    |Circuit 2: SUNSAR_PCHDL                    
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_216_n18#                                 |(no matching pin)                          
+a_216_334#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_PCHDL and SUNSAR_PCHDL are equivalent.
+  Flattening non-matched subcircuits SUNSAR_PCHDL SUNSAR_PCHDL
+
+Cell SUNSAR_NCHDL (0) disconnected node: a_324_n18#
+Cell SUNSAR_NCHDL (0) disconnected node: a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_NCHDL                    |Circuit 2: SUNSAR_NCHDL                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_NCHDL                    |Circuit 2: SUNSAR_NCHDL                    
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_324_n18#                                 |(no matching pin)                          
+a_324_334#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_NCHDL and SUNSAR_NCHDL are equivalent.
+  Flattening non-matched subcircuits SUNSAR_NCHDL SUNSAR_NCHDL
+
+Subcircuit summary:
+Circuit 1: SUNSAR_RM1                      |Circuit 2: SUNSAR_RM1                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_generic_l1 (1)           |sky130_fd_pr__res_generic_l1 (1)           
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_RM1                      |Circuit 2: SUNSAR_RM1                      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_RM1 and SUNSAR_RM1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: SUNSAR_CAP_BSSW_CV              |Circuit 2: SUNSAR_CAP_BSSW_CV              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_generic_m3 (2)           |sky130_fd_pr__res_generic_m3 (2)           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_CAP_BSSW_CV              |Circuit 2: SUNSAR_CAP_BSSW_CV              
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_CAP_BSSW_CV and SUNSAR_CAP_BSSW_CV are equivalent.
+
+Cell SUNSAR_TAPCELLB_CV (0) disconnected node: MN1/a_324_n18#
+Cell SUNSAR_TAPCELLB_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_TAPCELLB_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_TAPCELLB_CV (0) disconnected node: MP1/a_216_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_TAPCELLB_CV              |Circuit 2: SUNSAR_TAPCELLB_CV              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_TAPCELLB_CV              |Circuit 2: SUNSAR_TAPCELLB_CV              
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+MN1/a_324_n18#                             |(no matching pin)                          
+MN1/a_324_334#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MP1/a_216_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_TAPCELLB_CV and SUNSAR_TAPCELLB_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_TAPCELLB_CV SUNSAR_TAPCELLB_CV
+
+Cell SUNSAR_SAREMX1_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_SAREMX1_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_SAREMX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SAREMX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SAREMX1_CV               |Circuit 2: SUNSAR_SAREMX1_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (4)                
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SAREMX1_CV               |Circuit 2: SUNSAR_SAREMX1_CV               
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+BULKP                                      |BULKP                                      
+EN                                         |EN                                         
+RST_N                                      |RST_N                                      
+A                                          |A                                          
+B                                          |B                                          
+ENO                                        |ENO                                        
+AVDD                                       |AVDD                                       
+MP3/a_216_334#                             |(no matching pin)                          
+MN3/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SAREMX1_CV and SUNSAR_SAREMX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SAREMX1_CV SUNSAR_SAREMX1_CV
+
+Cell SUNSAR_IVX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_IVX1_CV (0) disconnected node: MP0/a_216_334#
+Cell SUNSAR_IVX1_CV (0) disconnected node: MN0/a_324_n18#
+Cell SUNSAR_IVX1_CV (0) disconnected node: MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_IVX1_CV                  |Circuit 2: SUNSAR_IVX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_IVX1_CV                  |Circuit 2: SUNSAR_IVX1_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+AVDD                                       |AVDD                                       
+BULKP                                      |BULKP                                      
+Y                                          |Y                                          
+A                                          |A                                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP0/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+MN0/a_324_334#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_IVX1_CV and SUNSAR_IVX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_IVX1_CV SUNSAR_IVX1_CV
+
+Cell SUNSAR_SARLTX1_CV (0) disconnected node: MN2/a_324_334#
+Cell SUNSAR_SARLTX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARLTX1_CV (0) disconnected node: MP2/a_216_334#
+Cell SUNSAR_SARLTX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARLTX1_CV               |Circuit 2: SUNSAR_SARLTX1_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARLTX1_CV               |Circuit 2: SUNSAR_SARLTX1_CV               
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+AVSS                                       |AVSS                                       
+EN                                         |EN                                         
+LCK_N                                      |LCK_N                                      
+AVDD                                       |AVDD                                       
+BULKN                                      |BULKN                                      
+RST_N                                      |RST_N                                      
+BULKP                                      |BULKP                                      
+CHL                                        |CHL                                        
+MN2/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP2/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARLTX1_CV and SUNSAR_SARLTX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARLTX1_CV SUNSAR_SARLTX1_CV
+
+Cell SUNTR_PCHDL (0) disconnected node: a_216_n18#
+Cell SUNTR_PCHDL (0) disconnected node: a_216_334#
+Subcircuit summary:
+Circuit 1: SUNTR_PCHDL                     |Circuit 2: SUNTR_PCHDL                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNTR_PCHDL                     |Circuit 2: SUNTR_PCHDL                     
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_216_n18#                                 |(no matching pin)                          
+a_216_334#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNTR_PCHDL and SUNTR_PCHDL are equivalent.
+  Flattening non-matched subcircuits SUNTR_PCHDL SUNTR_PCHDL
+
+Cell SUNTR_NCHDL (0) disconnected node: a_324_n18#
+Cell SUNTR_NCHDL (0) disconnected node: a_324_334#
+Subcircuit summary:
+Circuit 1: SUNTR_NCHDL                     |Circuit 2: SUNTR_NCHDL                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNTR_NCHDL                     |Circuit 2: SUNTR_NCHDL                     
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_324_n18#                                 |(no matching pin)                          
+a_324_334#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNTR_NCHDL and SUNTR_NCHDL are equivalent.
+  Flattening non-matched subcircuits SUNTR_NCHDL SUNTR_NCHDL
+
+Cell SUNSAR_CAP32C_CV (0) disconnected node: CTOP
+Cell SUNSAR_CAP32C_CV (0) disconnected node: AVSS
+Cell SUNSAR_CAP32C_CV (1) disconnected node: CTOP
+Cell SUNSAR_CAP32C_CV (1) disconnected node: AVSS
+Subcircuit summary:
+Circuit 1: SUNSAR_CAP32C_CV                |Circuit 2: SUNSAR_CAP32C_CV                
+-------------------------------------------|-------------------------------------------
+SUNSAR_RM1 (6)                             |SUNSAR_RM1 (6)                             
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_CAP32C_CV                |Circuit 2: SUNSAR_CAP32C_CV                
+-------------------------------------------|-------------------------------------------
+C8                                         |C8                                         
+C4                                         |C4                                         
+C1B                                        |C1B                                        
+C1A                                        |C1A                                        
+C2                                         |C2                                         
+C16                                        |C16                                        
+CTOP                                       |CTOP                                       
+AVSS                                       |AVSS                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_CAP32C_CV and SUNSAR_CAP32C_CV are equivalent.
+
+Cell SUNSAR_NDX1_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_NDX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_NDX1_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_NDX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_NDX1_CV                  |Circuit 2: SUNSAR_NDX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_NDX1_CV                  |Circuit 2: SUNSAR_NDX1_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+A                                          |A                                          
+BULKN                                      |BULKN                                      
+B                                          |B                                          
+AVDD                                       |AVDD                                       
+BULKP                                      |BULKP                                      
+Y                                          |Y                                          
+MN1/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_NDX1_CV and SUNSAR_NDX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_NDX1_CV SUNSAR_NDX1_CV
+
+Cell SUNSAR_NRX1_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_NRX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_NRX1_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_NRX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_NRX1_CV                  |Circuit 2: SUNSAR_NRX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_NRX1_CV                  |Circuit 2: SUNSAR_NRX1_CV                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+AVDD                                       |AVDD                                       
+A                                          |A                                          
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+B                                          |B                                          
+BULKP                                      |BULKP                                      
+MN1/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_NRX1_CV and SUNSAR_NRX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_NRX1_CV SUNSAR_NRX1_CV
+
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MP6_DMY/a_216_334#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MN6/a_324_334#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MN0/a_324_n18#
+Class SUNSAR_SARKICKHX1_CV (0):  Merged 9 parallel devices.
+Class SUNSAR_SARKICKHX1_CV (1):  Merged 9 parallel devices.
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MP6_DMY/a_216_334#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MN6/a_324_334#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARKICKHX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARKICKHX1_CV            |Circuit 2: SUNSAR_SARKICKHX1_CV            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (7->2)             |sky130_fd_pr__pfet_01v8 (7->2)             
+sky130_fd_pr__nfet_01v8 (7->3)             |sky130_fd_pr__nfet_01v8 (7->3)             
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARKICKHX1_CV            |Circuit 2: SUNSAR_SARKICKHX1_CV            
+-------------------------------------------|-------------------------------------------
+BULKN                                      |BULKN                                      
+AVSS                                       |AVSS                                       
+CK                                         |CK                                         
+CI                                         |CI                                         
+CKN                                        |CKN                                        
+BULKP                                      |BULKP                                      
+AVDD                                       |AVDD                                       
+MP6_DMY/a_216_334#                         |(no matching pin)                          
+MN6/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARKICKHX1_CV and SUNSAR_SARKICKHX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARKICKHX1_CV SUNSAR_SARKICKHX1_CV
+
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MP6/a_216_334#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MN6/a_324_334#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MN0/a_324_n18#
+Class SUNSAR_SARCMPHX1_CV (0):  Merged 6 parallel devices.
+Class SUNSAR_SARCMPHX1_CV (1):  Merged 6 parallel devices.
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MP6/a_216_334#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MN6/a_324_334#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARCMPHX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARCMPHX1_CV             |Circuit 2: SUNSAR_SARCMPHX1_CV             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (7->5)             |sky130_fd_pr__pfet_01v8 (7->5)             
+sky130_fd_pr__nfet_01v8 (7->3)             |sky130_fd_pr__nfet_01v8 (7->3)             
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARCMPHX1_CV             |Circuit 2: SUNSAR_SARCMPHX1_CV             
+-------------------------------------------|-------------------------------------------
+VMR                                        |VMR                                        
+AVSS                                       |AVSS                                       
+CI                                         |CI                                         
+BULKP                                      |BULKP                                      
+N1                                         |N1                                         
+BULKN                                      |BULKN                                      
+CO                                         |CO                                         
+CK                                         |CK                                         
+N2                                         |N2                                         
+AVDD                                       |AVDD                                       
+MP6/a_216_334#                             |(no matching pin)                          
+MN6/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARCMPHX1_CV and SUNSAR_SARCMPHX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARCMPHX1_CV SUNSAR_SARCMPHX1_CV
+
+Cell SUNSAR_IVX4_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MN0/a_324_n18#
+Class SUNSAR_IVX4_CV (0):  Merged 6 parallel devices.
+Class SUNSAR_IVX4_CV (1):  Merged 6 parallel devices.
+Cell SUNSAR_IVX4_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_IVX4_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_IVX4_CV                  |Circuit 2: SUNSAR_IVX4_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (4->1)             |sky130_fd_pr__pfet_01v8 (4->1)             
+sky130_fd_pr__nfet_01v8 (4->1)             |sky130_fd_pr__nfet_01v8 (4->1)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_IVX4_CV                  |Circuit 2: SUNSAR_IVX4_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+AVDD                                       |AVDD                                       
+BULKP                                      |BULKP                                      
+Y                                          |Y                                          
+A                                          |A                                          
+MP3/a_216_334#                             |(no matching pin)                          
+MN3/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_IVX4_CV and SUNSAR_IVX4_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_IVX4_CV SUNSAR_IVX4_CV
+
+Cell SUNSAR_NCHDLR (0) disconnected node: a_324_n18#
+Cell SUNSAR_NCHDLR (0) disconnected node: a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_NCHDLR                   |Circuit 2: SUNSAR_NCHDLR                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_NCHDLR                   |Circuit 2: SUNSAR_NCHDLR                   
+-------------------------------------------|-------------------------------------------
+G                                          |G                                          
+S                                          |S                                          
+D                                          |D                                          
+B                                          |B                                          
+a_324_n18#                                 |(no matching pin)                          
+a_324_334#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_NCHDLR and SUNSAR_NCHDLR are equivalent.
+  Flattening non-matched subcircuits SUNSAR_NCHDLR SUNSAR_NCHDLR
+
+Subcircuit summary:
+Circuit 1: SUNSAR_CAP_BSSW5_CV             |Circuit 2: SUNSAR_CAP_BSSW5_CV             
+-------------------------------------------|-------------------------------------------
+SUNSAR_CAP_BSSW_CV (5)                     |SUNSAR_CAP_BSSW_CV (5)                     
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 1 symmetry.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_CAP_BSSW5_CV             |Circuit 2: SUNSAR_CAP_BSSW5_CV             
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_CAP_BSSW5_CV and SUNSAR_CAP_BSSW5_CV are equivalent.
+
+Cell SUNSAR_TIEH_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_TIEH_CV (0) disconnected node: MP0/a_216_334#
+Cell SUNSAR_TIEH_CV (0) disconnected node: MN0/a_324_n18#
+Cell SUNSAR_TIEH_CV (0) disconnected node: MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_TIEH_CV                  |Circuit 2: SUNSAR_TIEH_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_TIEH_CV                  |Circuit 2: SUNSAR_TIEH_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+AVDD                                       |AVDD                                       
+Y                                          |Y                                          
+BULKP                                      |BULKP                                      
+MP0/a_216_n18#                             |(no matching pin)                          
+MP0/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+MN0/a_324_334#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_TIEH_CV and SUNSAR_TIEH_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_TIEH_CV SUNSAR_TIEH_CV
+
+Cell SUNSAR_TIEL_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_TIEL_CV (0) disconnected node: MP0/a_216_334#
+Cell SUNSAR_TIEL_CV (0) disconnected node: MN0/a_324_n18#
+Cell SUNSAR_TIEL_CV (0) disconnected node: MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_TIEL_CV                  |Circuit 2: SUNSAR_TIEL_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_TIEL_CV                  |Circuit 2: SUNSAR_TIEL_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+Y                                          |Y                                          
+BULKN                                      |BULKN                                      
+AVDD                                       |AVDD                                       
+BULKP                                      |BULKP                                      
+MP0/a_216_n18#                             |(no matching pin)                          
+MP0/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+MN0/a_324_334#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_TIEL_CV and SUNSAR_TIEL_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_TIEL_CV SUNSAR_TIEL_CV
+
+Cell SUNSAR_TGPD_CV (0) disconnected node: MN2/a_324_334#
+Cell SUNSAR_TGPD_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_TGPD_CV (0) disconnected node: MP2/a_216_334#
+Cell SUNSAR_TGPD_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_TGPD_CV                  |Circuit 2: SUNSAR_TGPD_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_TGPD_CV                  |Circuit 2: SUNSAR_TGPD_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+A                                          |A                                          
+0                                          |BULKN **Mismatch**                         
+AVDD                                       |AVDD                                       
+MP2/B                                      |BULKP **Mismatch**                         
+C                                          |C                                          
+B                                          |B                                          
+MN2/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP2/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for SUNSAR_TGPD_CV and SUNSAR_TGPD_CV altered to match.
+Device classes SUNSAR_TGPD_CV and SUNSAR_TGPD_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_TGPD_CV SUNSAR_TGPD_CV
+
+Cell SUNSAR_SARBSSWCTRL_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_SARBSSWCTRL_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARBSSWCTRL_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_SARBSSWCTRL_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARBSSWCTRL_CV           |Circuit 2: SUNSAR_SARBSSWCTRL_CV           
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARBSSWCTRL_CV           |Circuit 2: SUNSAR_SARBSSWCTRL_CV           
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+TIE_H                                      |TIE_H                                      
+AVDD                                       |AVDD                                       
+GN                                         |GN                                         
+C                                          |C                                          
+BULKN                                      |BULKN                                      
+GNG                                        |GNG                                        
+BULKP                                      |BULKP                                      
+MN1/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARBSSWCTRL_CV and SUNSAR_SARBSSWCTRL_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARBSSWCTRL_CV SUNSAR_SARBSSWCTRL_CV
+
+Cell SUNSAR_SARMRYX1_CV (0) disconnected node: XA5/MP2/a_216_334#
+Cell SUNSAR_SARMRYX1_CV (0) disconnected node: XA5/MN2/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARMRYX1_CV              |Circuit 2: SUNSAR_SARMRYX1_CV              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (12)               |sky130_fd_pr__pfet_01v8 (12)               
+sky130_fd_pr__nfet_01v8 (12)               |sky130_fd_pr__nfet_01v8 (12)               
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 22                         |Number of nets: 22                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARMRYX1_CV              |Circuit 2: SUNSAR_SARMRYX1_CV              
+-------------------------------------------|-------------------------------------------
+CHL_OP                                     |CHL_OP                                     
+CHL_ON                                     |CHL_ON                                     
+RST_N                                      |RST_N                                      
+ENO                                        |ENO                                        
+CMP_OP                                     |CMP_OP                                     
+CMP_ON                                     |CMP_ON                                     
+EN                                         |EN                                         
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+XA5/MP2/a_216_334#                         |(no matching pin)                          
+XA5/MN2/a_324_334#                         |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARMRYX1_CV and SUNSAR_SARMRYX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARMRYX1_CV SUNSAR_SARMRYX1_CV
+
+Cell SUNSAR_SWX4_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MN0/a_324_n18#
+Class SUNSAR_SWX4_CV (0):  Merged 6 parallel devices.
+Class SUNSAR_SWX4_CV (1):  Merged 6 parallel devices.
+Cell SUNSAR_SWX4_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SWX4_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SWX4_CV                  |Circuit 2: SUNSAR_SWX4_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (4->1)             |sky130_fd_pr__pfet_01v8 (4->1)             
+sky130_fd_pr__nfet_01v8 (4->1)             |sky130_fd_pr__nfet_01v8 (4->1)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SWX4_CV                  |Circuit 2: SUNSAR_SWX4_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+BULKN                                      |BULKN                                      
+VREF                                       |VREF                                       
+BULKP                                      |BULKP                                      
+Y                                          |Y                                          
+A                                          |A                                          
+MP3/a_216_334#                             |(no matching pin)                          
+MN3/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SWX4_CV and SUNSAR_SWX4_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SWX4_CV SUNSAR_SWX4_CV
+
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MN0/a_324_n18#
+Class SUNSAR_SARCEX1_CV (0):  Merged 1 parallel devices.
+Class SUNSAR_SARCEX1_CV (1):  Merged 1 parallel devices.
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MP3/a_216_334#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MN3/a_324_334#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_SARCEX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_SARCEX1_CV               |Circuit 2: SUNSAR_SARCEX1_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (4)                
+sky130_fd_pr__nfet_01v8 (4->3)             |sky130_fd_pr__nfet_01v8 (4->3)             
+Number of devices: 7                       |Number of devices: 7                       
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARCEX1_CV               |Circuit 2: SUNSAR_SARCEX1_CV               
+-------------------------------------------|-------------------------------------------
+BULKP                                      |BULKP                                      
+RST                                        |RST                                        
+BULKN                                      |BULKN                                      
+Y                                          |Y                                          
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+B                                          |B                                          
+A                                          |A                                          
+MP3/a_216_334#                             |(no matching pin)                          
+MN3/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARCEX1_CV and SUNSAR_SARCEX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_SARCEX1_CV SUNSAR_SARCEX1_CV
+
+Cell SUNSAR_IVTRIX1_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_IVTRIX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_IVTRIX1_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_IVTRIX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_IVTRIX1_CV               |Circuit 2: SUNSAR_IVTRIX1_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_IVTRIX1_CV               |Circuit 2: SUNSAR_IVTRIX1_CV               
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+C                                          |C                                          
+AVDD                                       |AVDD                                       
+CN                                         |CN                                         
+A                                          |A                                          
+BULKN                                      |BULKN                                      
+Y                                          |Y                                          
+BULKP                                      |BULKP                                      
+MN1/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_IVTRIX1_CV and SUNSAR_IVTRIX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_IVTRIX1_CV SUNSAR_IVTRIX1_CV
+
+Cell SUNTR_BFX1_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNTR_BFX1_CV (0) disconnected node: MP1/a_216_334#
+Subcircuit summary:
+Circuit 1: SUNTR_BFX1_CV                   |Circuit 2: SUNTR_BFX1_CV                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: SUNTR_BFX1_CV                   |Circuit 2: SUNTR_BFX1_CV                   
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/(1|3) = 2        
+                                           |  sky130_fd_pr__nfet_01v8/4 = 2            
+                                           |                                           
+Net: AVDD                                  |Net: AVDD                                  
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(1|3) = 2        
+                                           |  sky130_fd_pr__pfet_01v8/4 = 2            
+                                           |                                           
+Net: MP1/B                                 |(no matching net)                          
+  sky130_fd_pr__pfet_01v8/4 = 2            |                                           
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  sky130_fd_pr__nfet_01v8/4 = 2            |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+  Flattening non-matched subcircuits SUNTR_BFX1_CV SUNTR_BFX1_CV
+
+Cell SUNTR_TIEH_CV (0) disconnected node: MP0/a_216_334#
+Cell SUNTR_TIEH_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNTR_TIEH_CV (0) disconnected node: MN0/a_324_n18#
+Cell SUNTR_TIEH_CV (0) disconnected node: MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNTR_TIEH_CV                   |Circuit 2: SUNTR_TIEH_CV                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6 **Mismatch**             |Number of nets: 4 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: SUNTR_TIEH_CV                   |Circuit 2: SUNTR_TIEH_CV                   
+
+---------------------------------------------------------------------------------------
+Net: MP0/B                                 |Net: Y                                     
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+Net: AVSS                                  |(no matching net)                          
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
+                                           |                                           
+Net: 0                                     |(no matching net)                          
+  sky130_fd_pr__nfet_01v8/4 = 1            |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: AVDD                                  
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |                                           
+(no matching net)                          |Net: AVSS                                  
+                                           |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  sky130_fd_pr__nfet_01v8/4 = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: MP0/G                                 |Net: A                                     
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: SUNTR_TIEH_CV                   |Circuit 2: SUNTR_TIEH_CV                   
+
+---------------------------------------------------------------------------------------
+Instance: SUNTR_NCHDL:MN0/sky130_fd_pr__nf |Instance: SUNTR_NCHDL:MN0/sky130_fd_pr__nf 
+  (1,3) = (3,1)                            |  (1,3) = (3,2)                            
+  2 = 3                                    |  2 = 3                                    
+  4 = 1                                    |  4 = 2                                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: SUNTR_PCHDL:MP0/sky130_fd_pr__pf |Instance: SUNTR_PCHDL:MP0/sky130_fd_pr__pf 
+  (1,3) = (1,1)                            |  (1,3) = (2,1)                            
+  2 = 3                                    |  2 = 3                                    
+  4 = 1                                    |  4 = 2                                    
+---------------------------------------------------------------------------------------
+Netlists do not match.
+  Flattening non-matched subcircuits SUNTR_TIEH_CV SUNTR_TIEH_CV
+
+Cell SUNTR_TAPCELLB_CV (0) disconnected node: MN1/a_324_n18#
+Cell SUNTR_TAPCELLB_CV (0) disconnected node: MP1/a_216_n18#
+Subcircuit summary:
+Circuit 1: SUNTR_TAPCELLB_CV               |Circuit 2: SUNTR_TAPCELLB_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNTR_TAPCELLB_CV               |Circuit 2: SUNTR_TAPCELLB_CV               
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+MN1/a_324_n18#                             |(no matching pin)                          
+MP1/a_216_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNTR_TAPCELLB_CV and SUNTR_TAPCELLB_CV are equivalent.
+  Flattening non-matched subcircuits SUNTR_TAPCELLB_CV SUNTR_TAPCELLB_CV
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: SUNSAR_CDAC7_CV                 |Circuit 2: SUNSAR_CDAC7_CV                 
+-------------------------------------------|-------------------------------------------
+SUNSAR_CAP32C_CV (4)                       |SUNSAR_CAP32C_CV (4)                       
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_CDAC7_CV                 |Circuit 2: SUNSAR_CDAC7_CV                 
+-------------------------------------------|-------------------------------------------
+CP<8>                                      |CP<8>                                      
+CP<9>                                      |CP<9>                                      
+AVSS                                       |AVSS                                       
+CP<0>                                      |CP<0>                                      
+CP<1>                                      |CP<1>                                      
+CP<2>                                      |CP<2>                                      
+CP<3>                                      |CP<3>                                      
+CP<7>                                      |CP<7>                                      
+CP<4>                                      |CP<4>                                      
+CP<6>                                      |CP<6>                                      
+CTOP                                       |CTOP                                       
+CP<5>                                      |CP<5>                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_CDAC7_CV and SUNSAR_CDAC7_CV are equivalent.
+
+Class SUNSAR_SARCMPX1_CV (0):  Merged 6 parallel devices.
+Class SUNSAR_SARCMPX1_CV (1):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: SUNSAR_SARCMPX1_CV              |Circuit 2: SUNSAR_SARCMPX1_CV              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (44->20)           |sky130_fd_pr__pfet_01v8 (44->20)           
+sky130_fd_pr__nfet_01v8 (44->20)           |sky130_fd_pr__nfet_01v8 (44->20)           
+Number of devices: 40                      |Number of devices: 40                      
+Number of nets: 22                         |Number of nets: 22                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARCMPX1_CV              |Circuit 2: SUNSAR_SARCMPX1_CV              
+-------------------------------------------|-------------------------------------------
+CPO                                        |CPO                                        
+CNO                                        |CNO                                        
+CPI                                        |CPI                                        
+CNI                                        |CNI                                        
+CK_SAMPLE                                  |CK_SAMPLE                                  
+DONE                                       |DONE                                       
+CK_CMP                                     |CK_CMP                                     
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARCMPX1_CV and SUNSAR_SARCMPX1_CV are equivalent.
+
+Class SUNSAR_SARBSSW_CV (0):  Merged 10 parallel devices.
+Class SUNSAR_SARBSSW_CV (1):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: SUNSAR_SARBSSW_CV               |Circuit 2: SUNSAR_SARBSSW_CV               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (19->11)           |sky130_fd_pr__nfet_01v8 (19->11)           
+SUNSAR_CAP_BSSW5_CV (1)                    |SUNSAR_CAP_BSSW5_CV (1)                    
+sky130_fd_pr__pfet_01v8 (11->9)            |sky130_fd_pr__pfet_01v8 (11->9)            
+Number of devices: 21                      |Number of devices: 21                      
+Number of nets: 16                         |Number of nets: 16                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARBSSW_CV               |Circuit 2: SUNSAR_SARBSSW_CV               
+-------------------------------------------|-------------------------------------------
+CKN                                        |CKN                                        
+AVDD                                       |AVDD                                       
+TIE_L                                      |TIE_L                                      
+CK                                         |CK                                         
+AVSS                                       |AVSS                                       
+VO1                                        |VO1                                        
+VO2                                        |VO2                                        
+VI                                         |VI                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARBSSW_CV and SUNSAR_SARBSSW_CV are equivalent.
+
+Class SUNSAR_SARDIGEX4_CV (0):  Merged 2 parallel devices.
+Class SUNSAR_SARDIGEX4_CV (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: SUNSAR_SARDIGEX4_CV             |Circuit 2: SUNSAR_SARDIGEX4_CV             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (41->28)           |sky130_fd_pr__pfet_01v8 (41->28)           
+sky130_fd_pr__nfet_01v8 (41->27)           |sky130_fd_pr__nfet_01v8 (41->27)           
+Number of devices: 55                      |Number of devices: 55                      
+Number of nets: 42                         |Number of nets: 42                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SARDIGEX4_CV             |Circuit 2: SUNSAR_SARDIGEX4_CV             
+-------------------------------------------|-------------------------------------------
+ENO                                        |ENO                                        
+RST_N                                      |RST_N                                      
+CMP_OP                                     |CMP_OP                                     
+CMP_ON                                     |CMP_ON                                     
+EN                                         |EN                                         
+CKS                                        |CKS                                        
+DONE                                       |DONE                                       
+CEIN                                       |CEIN                                       
+CEO                                        |CEO                                        
+VREF                                       |VREF                                       
+CN1                                        |CN1                                        
+CP0                                        |CP0                                        
+CN0                                        |CN0                                        
+CP1                                        |CP1                                        
+AVSS                                       |AVSS                                       
+AVDD                                       |AVDD                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SARDIGEX4_CV and SUNSAR_SARDIGEX4_CV are equivalent.
+
+Subcircuit summary:
+Circuit 1: SUNSAR_DFQNX1_CV                |Circuit 2: SUNSAR_DFQNX1_CV                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (13)               |sky130_fd_pr__pfet_01v8 (13)               
+sky130_fd_pr__nfet_01v8 (13)               |sky130_fd_pr__nfet_01v8 (13)               
+Number of devices: 26                      |Number of devices: 26                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_DFQNX1_CV                |Circuit 2: SUNSAR_DFQNX1_CV                
+-------------------------------------------|-------------------------------------------
+Q                                          |Q                                          
+QN                                         |QN                                         
+CK                                         |CK                                         
+D                                          |D                                          
+AVDD                                       |AVDD                                       
+AVSS                                       |AVSS                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_DFQNX1_CV and SUNSAR_DFQNX1_CV are equivalent.
+
+Cell SUNSAR_BFX1_CV (0) disconnected node: MN1/a_324_334#
+Cell SUNSAR_BFX1_CV (0) disconnected node: MP0/a_216_n18#
+Cell SUNSAR_BFX1_CV (0) disconnected node: MP1/a_216_334#
+Cell SUNSAR_BFX1_CV (0) disconnected node: MN0/a_324_n18#
+Subcircuit summary:
+Circuit 1: SUNSAR_BFX1_CV                  |Circuit 2: SUNSAR_BFX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_BFX1_CV                  |Circuit 2: SUNSAR_BFX1_CV                  
+-------------------------------------------|-------------------------------------------
+AVSS                                       |AVSS                                       
+A                                          |A                                          
+BULKN                                      |BULKN                                      
+Y                                          |Y                                          
+AVDD                                       |AVDD                                       
+BULKP                                      |BULKP                                      
+MN1/a_324_334#                             |(no matching pin)                          
+MP0/a_216_n18#                             |(no matching pin)                          
+MP1/a_216_334#                             |(no matching pin)                          
+MN0/a_324_n18#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_BFX1_CV and SUNSAR_BFX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_BFX1_CV SUNSAR_BFX1_CV
+
+Cell SUNSAR_ORX1_CV (0) disconnected node: XA1/MP0/a_216_n18#
+Cell SUNSAR_ORX1_CV (0) disconnected node: XA1/MN0/a_324_n18#
+Cell SUNSAR_ORX1_CV (0) disconnected node: XA2/MP0/a_216_334#
+Cell SUNSAR_ORX1_CV (0) disconnected node: XA2/MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_ORX1_CV                  |Circuit 2: SUNSAR_ORX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_ORX1_CV                  |Circuit 2: SUNSAR_ORX1_CV                  
+-------------------------------------------|-------------------------------------------
+BULKP                                      |BULKP                                      
+BULKN                                      |BULKN                                      
+AVSS                                       |AVSS                                       
+A                                          |A                                          
+B                                          |B                                          
+AVDD                                       |AVDD                                       
+Y                                          |Y                                          
+XA1/MP0/a_216_n18#                         |(no matching pin)                          
+XA1/MN0/a_324_n18#                         |(no matching pin)                          
+XA2/MP0/a_216_334#                         |(no matching pin)                          
+XA2/MN0/a_324_334#                         |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_ORX1_CV and SUNSAR_ORX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_ORX1_CV SUNSAR_ORX1_CV
+
+Cell SUNSAR_ANX1_CV (0) disconnected node: XA1/MP0/a_216_n18#
+Cell SUNSAR_ANX1_CV (0) disconnected node: XA1/MN0/a_324_n18#
+Cell SUNSAR_ANX1_CV (0) disconnected node: XA2/MP0/a_216_334#
+Cell SUNSAR_ANX1_CV (0) disconnected node: XA2/MN0/a_324_334#
+Subcircuit summary:
+Circuit 1: SUNSAR_ANX1_CV                  |Circuit 2: SUNSAR_ANX1_CV                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_ANX1_CV                  |Circuit 2: SUNSAR_ANX1_CV                  
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+AVSS                                       |AVSS                                       
+Y                                          |Y                                          
+BULKP                                      |BULKP                                      
+BULKN                                      |BULKN                                      
+AVDD                                       |AVDD                                       
+XA1/MP0/a_216_n18#                         |(no matching pin)                          
+XA1/MN0/a_324_n18#                         |(no matching pin)                          
+XA2/MP0/a_216_334#                         |(no matching pin)                          
+XA2/MN0/a_324_334#                         |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_ANX1_CV and SUNSAR_ANX1_CV are equivalent.
+  Flattening non-matched subcircuits SUNSAR_ANX1_CV SUNSAR_ANX1_CV
+
+Subcircuit summary:
+Circuit 1: SUNSAR_SAR8B_CV                 |Circuit 2: SUNSAR_SAR8B_CV                 
+-------------------------------------------|-------------------------------------------
+SUNSAR_CDAC7_CV (2)                        |SUNSAR_CDAC7_CV (2)                        
+SUNSAR_SARCMPX1_CV (1)                     |SUNSAR_SARCMPX1_CV (1)                     
+SUNSAR_SARBSSW_CV (2)                      |SUNSAR_SARBSSW_CV (2)                      
+SUNSAR_SARDIGEX4_CV (8)                    |SUNSAR_SARDIGEX4_CV (8)                    
+Number of devices: 13                      |Number of devices: 13                      
+Number of nets: 71                         |Number of nets: 71                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_SAR8B_CV                 |Circuit 2: SUNSAR_SAR8B_CV                 
+-------------------------------------------|-------------------------------------------
+VREF                                       |VREF                                       
+SAR_IN                                     |SAR_IN                                     
+SAR_IP                                     |SAR_IP                                     
+D<0>                                       |D<0>                                       
+AVDD                                       |AVDD                                       
+EN                                         |EN                                         
+CK_SAMPLE                                  |CK_SAMPLE                                  
+AVSS                                       |AVSS                                       
+SARP                                       |SARP                                       
+SARN                                       |SARN                                       
+CK_SAMPLE_BSSW                             |CK_SAMPLE_BSSW                             
+D<6>                                       |D<6>                                       
+D<5>                                       |D<5>                                       
+D<4>                                       |D<4>                                       
+D<3>                                       |D<3>                                       
+D<2>                                       |D<2>                                       
+D<1>                                       |D<1>                                       
+D<7>                                       |D<7>                                       
+DONE                                       |DONE                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_SAR8B_CV and SUNSAR_SAR8B_CV are equivalent.
+
+Subcircuit summary:
+Circuit 1: SUNSAR_CAPT8B_CV                |Circuit 2: SUNSAR_CAPT8B_CV                
+-------------------------------------------|-------------------------------------------
+SUNSAR_DFQNX1_CV (8)                       |SUNSAR_DFQNX1_CV (8)                       
+sky130_fd_pr__pfet_01v8 (13)               |sky130_fd_pr__pfet_01v8 (13)               
+sky130_fd_pr__nfet_01v8 (13)               |sky130_fd_pr__nfet_01v8 (13)               
+Number of devices: 34                      |Number of devices: 34                      
+Number of nets: 42                         |Number of nets: 42                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: SUNSAR_CAPT8B_CV                |Circuit 2: SUNSAR_CAPT8B_CV                
+-------------------------------------------|-------------------------------------------
+CK_SAMPLE                                  |CK_SAMPLE                                  
+ENABLE                                     |ENABLE                                     
+CKS                                        |CKS                                        
+EN                                         |EN                                         
+CK_SAMPLE_BSSW                             |CK_SAMPLE_BSSW                             
+AVDD                                       |AVDD                                       
+AVSS                                       |AVSS                                       
+DONE                                       |DONE                                       
+D<7>                                       |D<7>                                       
+D<6>                                       |D<6>                                       
+D<5>                                       |D<5>                                       
+D<4>                                       |D<4>                                       
+D<3>                                       |D<3>                                       
+D<2>                                       |D<2>                                       
+D<1>                                       |D<1>                                       
+D<0>                                       |D<0>                                       
+DO<7>                                      |DO<7>                                      
+DO<6>                                      |DO<6>                                      
+DO<5>                                      |DO<5>                                      
+DO<4>                                      |DO<4>                                      
+DO<3>                                      |DO<3>                                      
+DO<2>                                      |DO<2>                                      
+DO<1>                                      |DO<1>                                      
+DO<0>                                      |DO<0>                                      
+TIE_L                                      |TIE_L                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes SUNSAR_CAPT8B_CV and SUNSAR_CAPT8B_CV are equivalent.
+Flattening unmatched subcell TT06SAR_NDIO in circuit tt_um_TT06_SAR_wulffern (0)(3 instances)
+Flattening unmatched subcell tt_um_TT06_SAR_done in circuit tt_um_TT06_SAR_wulffern (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_XS736D in circuit tt_um_TT06_SAR_wulffern (0)(1 instance)
+
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: rst_n
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: rst_n
+Class tt_um_TT06_SAR_wulffern (0):  Merged 8 parallel devices.
+Class tt_um_TT06_SAR_wulffern (1):  Merged 8 parallel devices.
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: rst_n
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: rst_n
+Subcircuit summary:
+Circuit 1: tt_um_TT06_SAR_wulffern         |Circuit 2: tt_um_TT06_SAR_wulffern         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__diode_pw2nd_05v5 (3)         |sky130_fd_pr__diode_pw2nd_05v5 (3)         
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (4)                
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_pr__cap_mim_m3_1 (9->1)          |sky130_fd_pr__cap_mim_m3_1 (9->1)          
+SUNSAR_SAR8B_CV (1)                        |SUNSAR_SAR8B_CV (1)                        
+SUNSAR_CAPT8B_CV (1)                       |SUNSAR_CAPT8B_CV (1)                       
+sky130_fd_pr__res_generic_m4 (16)          |sky130_fd_pr__res_generic_m4 (16)          
+Number of devices: 30                      |Number of devices: 30                      
+Number of nets: 49                         |Number of nets: 49                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tt_um_TT06_SAR_wulffern         |Circuit 2: tt_um_TT06_SAR_wulffern         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+ua[1]                                      |ua[1]                                      
+ua[0]                                      |ua[0]                                      
+uo_out[7]                                  |uo_out[7]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[0]                                  |uo_out[0]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_out[7]                                 |uio_out[7]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+clk                                        |clk                                        
+ui_in[0]                                   |ui_in[0]                                   
+uio_out[0]                                 |uio_out[0]                                 
+VGND                                       |VGND                                       
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_TT06_SAR_wulffern and tt_um_TT06_SAR_wulffern are equivalent.
+
+Final result: Circuits match uniquely.
+.

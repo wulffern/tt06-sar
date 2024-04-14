@@ -1,0 +1,331 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell SUNSAR_SAR8B_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_SARBSSW_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDLR in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_TAPCELLB_CV in circuit tt_um_TT06_SAR_wulffern (1)(6 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(6 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(6 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_TGPD_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(6 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(6 instances)
+Flattening unmatched subcell SUNSAR_SARBSSWCTRL_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(4 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(4 instances)
+Flattening unmatched subcell SUNSAR_TIEH_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_TIEL_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_CAP_BSSW5_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_CAP_BSSW_CV in circuit tt_um_TT06_SAR_wulffern (1)(10 instances)
+Flattening unmatched subcell SUNSAR_CDAC7_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_CAP32C_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_RM1 in circuit tt_um_TT06_SAR_wulffern (1)(48 instances)
+Flattening unmatched subcell SUNSAR_SARDIGEX4_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_SARMRYX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_TAPCELLB_CV in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_SAREMX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(40 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(40 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(40 instances)
+Flattening unmatched subcell SUNSAR_SARLTX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(48 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(48 instances)
+Flattening unmatched subcell SUNSAR_SWX4_CV in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(128 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(128 instances)
+Flattening unmatched subcell SUNSAR_SARCEX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_NDX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_NRX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(16 instances)
+Flattening unmatched subcell SUNSAR_SARCMPX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_TAPCELLB_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_SARKICKHX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(14 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(14 instances)
+Flattening unmatched subcell SUNSAR_SARCMPHX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(14 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(14 instances)
+Flattening unmatched subcell SUNSAR_IVX4_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NDX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_NRX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_CAPT8B_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_DFQNX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(8 instances)
+Flattening unmatched subcell SUNSAR_TAPCELLB_CV in circuit tt_um_TT06_SAR_wulffern (1)(9 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(9 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(9 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(35 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(35 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(35 instances)
+Flattening unmatched subcell SUNSAR_IVTRIX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(32 instances)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(64 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(64 instances)
+Flattening unmatched subcell SUNSAR_BFX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_ORX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NRX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_ANX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NDX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNSAR_IVX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_TIEL_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNSAR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_BFX1_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNTR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(2 instances)
+Flattening unmatched subcell SUNTR_TIEH_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_TAPCELLB_CV in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_NCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+Flattening unmatched subcell SUNTR_PCHDL in circuit tt_um_TT06_SAR_wulffern (1)(1 instance)
+
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: rst_n
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: rst_n
+Class tt_um_TT06_SAR_wulffern (0):  Merged 375 parallel devices.
+Class tt_um_TT06_SAR_wulffern (1):  Merged 375 parallel devices.
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (0) disconnected node: rst_n
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ui_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[1]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: uio_in[0]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[7]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[6]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[5]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[4]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[3]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ua[2]
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: ena
+Cell tt_um_TT06_SAR_wulffern (1) disconnected node: rst_n
+Subcircuit summary:
+Circuit 1: tt_um_TT06_SAR_wulffern         |Circuit 2: tt_um_TT06_SAR_wulffern         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (531->359)         |sky130_fd_pr__nfet_01v8 (531->359)         
+sky130_fd_pr__pfet_01v8 (515->363)         |sky130_fd_pr__pfet_01v8 (515->363)         
+sky130_fd_pr__res_generic_m4 (16)          |sky130_fd_pr__res_generic_m4 (16)          
+sky130_fd_pr__res_generic_l1 (48->21)      |sky130_fd_pr__res_generic_l1 (48->21)      
+sky130_fd_pr__res_generic_m3 (20->4)       |sky130_fd_pr__res_generic_m3 (20->4)       
+sky130_fd_pr__cap_mim_m3_1 (9->1)          |sky130_fd_pr__cap_mim_m3_1 (9->1)          
+sky130_fd_pr__diode_pw2nd_05v5 (3)         |sky130_fd_pr__diode_pw2nd_05v5 (3)         
+Number of devices: 767                     |Number of devices: 767                     
+Number of nets: 476                        |Number of nets: 476                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 5 symmetries.
+
+Subcircuit pins:
+Circuit 1: tt_um_TT06_SAR_wulffern         |Circuit 2: tt_um_TT06_SAR_wulffern         
+-------------------------------------------|-------------------------------------------
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_out[7]                                 |uio_out[7]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+clk                                        |clk                                        
+ui_in[0]                                   |ui_in[0]                                   
+uio_out[0]                                 |uio_out[0]                                 
+ua[1]                                      |ua[1]                                      
+ua[0]                                      |ua[0]                                      
+uo_out[0]                                  |uo_out[0]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[1]                                   |ui_in[1]                                   
+uio_in[7]                                  |uio_in[7]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[0]                                  |uio_in[0]                                  
+ua[7]                                      |ua[7]                                      
+ua[6]                                      |ua[6]                                      
+ua[5]                                      |ua[5]                                      
+ua[4]                                      |ua[4]                                      
+ua[3]                                      |ua[3]                                      
+ua[2]                                      |ua[2]                                      
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_TT06_SAR_wulffern and tt_um_TT06_SAR_wulffern are equivalent.
+
+Final result: Circuits match uniquely.
+.
