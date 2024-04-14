@@ -20,8 +20,9 @@ SVGLIBS=TT06_SAR_SKY130NM
 
 CICEXCLUDE="^(${PREFIX}SUNTR_)"
 
-
+DATE = $(shell date "+%Y-%m-%d_%H%M")
 deliver:
+	cp ../../../gds/tt_um_TT06_SAR_wulffern.gds ../../../gds/${DATE}_tt_um_TT06_SAR_wulffern.gds
 	magic -noconsole -dnull deliver.tcl
 
 #- Provide cells you want to check for the lvsall drcall commands
