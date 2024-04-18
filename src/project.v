@@ -102,7 +102,7 @@ module tt_um_TT06_SAR_wulffern (
          else if(clk == 0) begin
             state = CONVERT;
  `ifdef ANA_TYPE_REAL
-            smpl = ua_1 - ua_0;
+            smpl = ua_0 - ua_1;
             tmp = smpl;
 
             for(int i=7;i>=0;i--) begin
