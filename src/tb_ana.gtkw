@@ -1,0 +1,73 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Apr 18 10:18:58 2024
+[*]
+[dumpfile] "test.vcd"
+[dumpfile_mtime] "Thu Apr 18 10:17:13 2024"
+[dumpfile_size] 11510
+[savefile] "/Users/wulff/data/2024/tt06-sar/src/tb_ana.gtkw"
+[timestart] 0
+[size] 1296 939
+[pos] -278 -15
+*-20.349478 2050000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] test.
+[sst_width] 253
+[signals_width] 195
+[sst_expanded] 1
+[sst_vpaned_height] 276
+@8028
+test.ua_0
+@20000
+-
+-
+-
+-
+-
+-
+-
+@8420
+test.uo_out[7:0]
+@20000
+-
+-
+-
+-
+-
+@22
+test.ui_in[7:0]
+@8028
+test.dut.tmp
+@20000
+-
+@28
+test.dut.clk
+(7)test.uio_out[7:0]
+(7)test.ui_in[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

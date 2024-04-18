@@ -7,6 +7,7 @@ echo "MEAS_START"
 
 
 meas tran tpd_clkf_doner trig v(clk) val='0.9' fall=1 td=1u targ v(uio_out[0]) val='0.9' rise=1 td=1u
+meas tran tpd_clkr_donef trig v(clk) val='0.9' rise=1 td=1u targ v(uio_out[0]) val='0.9' fall=1 td=1u
 meas tran tpd_doner_clkr trig v(uio_out[0]) val='0.9' rise=1  td=1u targ v(clk) val='0.9' rise=2 td=1u
 meas tran tperiod trig v(clk) val='0.9' rise=1  td=1u targ v(clk) val='0.9' rise=2 td=1u
 meas tran iavdd AVG i(VDD) TD='500n'
