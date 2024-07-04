@@ -124,7 +124,11 @@ Navigate to the testbench and run a typical simulation (requires cicsim)
 ```bash 
 cd ip/tt06_sar_sky130nm/sim/TT06_SAR
 make typical OPT="Debug"
+cicsim wave output_tran/tran_DebugLayGtKttTtVt.raw
 ```
+The interesting signals are `v(xdut.sunsar_sar8b_cv_0.sarn)` and
+`v(xdut.sunsar_sar8b_cv_0.sarp)` which are the top plates of the CDAC. The
+inputs to the SAR is `v(ua[0])` and `v(ua[1])`.
 
 The main testbench is `ip/tt06_sar_sky130nm/sim/TT6_06/tran.spi` 
 

@@ -2,10 +2,10 @@
 `timescale 1 ns / 1 ps
 module test;
 
-  logic rst_n = 0;
+   logic rst_n = 0;
 
-  logic clk = 0;
-  always #125 clk = !clk;
+   logic clk = 0;
+   always #125 clk = !clk;
 
    logic VGND;
    logic VPWR;
@@ -15,20 +15,18 @@ module test;
    logic [7:0] uio_in;
    logic [7:0] uio_out;
    logic [7:0] uio_oe;
+   wire        ena;
+
 
 `ifdef ANA_TYPE_REAL
-   real      ua_0  = 0;
-   real      ua_1 = 0;
+   real        ua_0  = 0;
+   real        ua_1 = 0;
 
 `else
-   tri [7:0] ua;
-   logic     uain = 0;
+   tri [7:0]   ua;
+   logic       uain = 0;
    assign ua = uain;
 `endif
-   wire       ena;
-
-
-
    tt_um_TT06_SAR_wulffern dut (
                                 .VGND(VGND),
                                 .VPWR(VPWR),
@@ -50,34 +48,31 @@ module test;
 
 
 `ifdef ANA_TYPE_REAL
-
-
    always #100 begin
       ua_0 = $sin(2*3.14*1/7750*$time);
       ua_1 = -$sin(2*3.14*1/7750*$time);
    end
-
 `endif
 
 
 
-  initial
-    begin
-       $dumpfile("test.vcd");
-       $dumpvars(0,test);
+   initial
+     begin
+        $dumpfile("test.vcd");
+        $dumpvars(0,test);
 
-       ui_in = 0;
+        ui_in = 0;
 
 
-       #10 rst_n = 0;
-       #10 rst_n = 1;
+        #10 rst_n = 0;
+        #10 rst_n = 1;
 
-       #10 VGND = 0;
-       #1 VPWR = 1;
+        #10 VGND = 0;
+        #1 VPWR = 1;
 
-       #500 ui_in[0] = 1;
+        #500 ui_in[0] = 1;
 
-       #5000 $stop;
+        #5000 $stop;
 
-    end
+     end
 endmodule // test

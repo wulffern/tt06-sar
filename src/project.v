@@ -21,18 +21,41 @@ module tt_um_TT06_SAR_wulffern (
                                 input wire        rst_n
                                 );
 
-   parameter                                      OFF = 0,
-                                                  SAMPLE = 1,
-                                                  CONVERT = 2,
-                                                  DONE=3;
-   logic [1:0]                                    state;
-   logic [1:0]                                    next_state;
+
    logic [7:0]                                    dout;
    logic [7:0]                                    sampled_dout;
    logic                                          done;
    logic                                          tie_l  =0;
    logic                                          tie_h = 1;
 
+
+   assign uo_out = sampled_dout;
+   assign uio_out[0] = done;
+
+   assign uio_out[1] = tie_l;
+   assign uio_out[2] = tie_l;
+   assign uio_out[3] = tie_l;
+   assign uio_out[4] = tie_l;
+   assign uio_out[5] = tie_l;
+   assign uio_out[6] = tie_l;
+   assign uio_out[7] = tie_l;
+   assign uio_oe[0] = tie_h;
+   assign uio_oe[1] = tie_l;
+   assign uio_oe[2] = tie_l;
+   assign uio_oe[3] = tie_l;
+   assign uio_oe[4] = tie_l;
+   assign uio_oe[5] = tie_l;
+   assign uio_oe[6] = tie_l;
+   assign uio_oe[7] = tie_l;
+
+
+   //State machine, combinatorial part
+   parameter                                      OFF = 0,
+                                                  SAMPLE = 1,
+                                                  CONVERT = 2,
+                                                  DONE=3;
+   logic [1:0]                                    state;
+   logic [1:0]                                    next_state;
    always_comb begin
       case (state)
         OFF: begin
@@ -58,35 +81,11 @@ module tt_um_TT06_SAR_wulffern (
    real lsb = 1.0/64.0;
 `else
    logic tmp;
-
 `endif
 
-   assign uo_out = sampled_dout;
-   assign uio_out[0] = done;
 
-   assign uio_out[1] = tie_l;
-   assign uio_out[2] = tie_l;
-   assign uio_out[3] = tie_l;
-   assign uio_out[4] = tie_l;
-   assign uio_out[5] = tie_l;
-   assign uio_out[6] = tie_l;
-   assign uio_out[7] = tie_l;
-   assign uio_oe[0] = tie_h;
-   assign uio_oe[1] = tie_l;
-   assign uio_oe[2] = tie_l;
-   assign uio_oe[3] = tie_l;
-   assign uio_oe[4] = tie_l;
-   assign uio_oe[5] = tie_l;
-   assign uio_oe[6] = tie_l;
-   assign uio_oe[7] = tie_l;
-
-
-   //always #5 iclk = !iclk;
-//& ~done & ui_in[0];
-
-
+   //Main SAR loop
    always_ff @(posedge clk or negedge clk) begin
-
       if(~ui_in[0]) begin
          state <= OFF;
          tmp = 0;
@@ -101,7 +100,7 @@ module tt_um_TT06_SAR_wulffern (
          end// !`ifdef ANA_TYPE_REAL
          else if(clk == 0) begin
             state = CONVERT;
- `ifdef ANA_TYPE_REAL
+`ifdef ANA_TYPE_REAL
             smpl = ua_0 - ua_1;
             tmp = smpl;
 
@@ -121,27 +120,21 @@ module tt_um_TT06_SAR_wulffern (
                     dout[i] = 0;
                end
             end
- `else
+`else
             if(tmp == 0) begin
-              dout[7] <= 1;
+               dout[7] <= 1;
                tmp <= 1;
 
             end
             else begin
-              dout[7] <= 0;
+               dout[7] <= 0;
                tmp  = 0;
             end
- `endif
+`endif
 
          end
-
          state = next_state;
       end // else: !if(~ui_in[0])
-
-
-
-
-
    end // always_ff @ (posedge clk)
 
    always @(posedge done) begin
