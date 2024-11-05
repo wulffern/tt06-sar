@@ -31,6 +31,9 @@ Apply a differential voltage with a common mode of around VDD/2 to ua[1] and
 ua[0]. If you want to measure the offset and noise of the ADC then connect ua[1]
 to ua[0] and provide 0.9 V to both. 
 
+A common mode of 0 V won't work. The comparator will not make a decision in time, and the
+asynchronous clock generation loop will be to slow, probably.
+
 Apply a 4 MHz clock to clk. Typical corner should be able
 to run faster.
 
@@ -74,8 +77,8 @@ will occur, which changes the differential voltage on the capacitor array.
 A asynchronous custom digital logic performs a binary search to find the digital
 value. 
 
-The comparator input has the net name SARP and SARN. Observe those to see how
-the SAR operates. 
+The comparator input has the net name SARP and SARN. Observe those in a
+simulation to see how the SAR operates. 
 
 I would also recommend reading [A Compiled 9-bit 20-MS/s
 3.5-fJ/conv.step SAR ADC in 28-nm FDSOI for Bluetooth Low Energy
