@@ -18,7 +18,7 @@ def cli(fvcd):
     count = 0
     with open(fvcd,'rb') as fi:
         tokens = tokenize(fi)
-        N = 18
+        N = 16
         while (count < 2**N ):
             token = next(tokens)
             if(token is None):
